@@ -1,0 +1,221 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/local/ITAM/esotomayg/Documents/labLog/practica2/simulation/modelsim
+Ebcd_to_7_segment
+Z1 w1536323132
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8/home/local/ITAM/esotomayg/Documents/labLog/practica2/bcd_to_7_segment.vhd
+Z7 F/home/local/ITAM/esotomayg/Documents/labLog/practica2/bcd_to_7_segment.vhd
+l0
+L6
+VzM[WDg8:J>I=Nc>OK_Xic3
+!s100 CO`lg462BGchC94g?4ZOE0
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1536327823
+!i10b 1
+Z10 !s108 1536327823.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/labLog/practica2/bcd_to_7_segment.vhd|
+Z12 !s107 /home/local/ITAM/esotomayg/Documents/labLog/practica2/bcd_to_7_segment.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Aled_table
+R2
+R3
+R4
+R5
+DEx4 work 16 bcd_to_7_segment 0 22 zM[WDg8:J>I=Nc>OK_Xic3
+l20
+L19
+VHj8eJB7<;>6CPbcLY5jZc1
+!s100 dJY201aN1Z7S25i]2e2aT2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Econt2
+Z15 w1535724821
+R2
+R3
+R4
+R5
+R0
+Z16 8/home/local/ITAM/esotomayg/Documents/labLog/practica2/cont2.vhd
+Z17 F/home/local/ITAM/esotomayg/Documents/labLog/practica2/cont2.vhd
+l0
+L6
+Va:;n5UmKP_LBbegl66:l43
+!s100 CADWf5OC>Kz6Ld4m:391@3
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/labLog/practica2/cont2.vhd|
+Z19 !s107 /home/local/ITAM/esotomayg/Documents/labLog/practica2/cont2.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 5 cont2 0 22 a:;n5UmKP_LBbegl66:l43
+l16
+L14
+V976RXKLZoU2ne@77>_[C=1
+!s100 YU3=`M;J8[7DPCeXjUen20
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Edecoder_2_to_4
+Z20 w1535723620
+R2
+R3
+R4
+R5
+R0
+Z21 8/home/local/ITAM/esotomayg/Documents/labLog/practica2/decoder_2_to_4.vhd
+Z22 F/home/local/ITAM/esotomayg/Documents/labLog/practica2/decoder_2_to_4.vhd
+l0
+L6
+VADU64=aY`D;F<XUT=jPS=0
+!s100 H<aYQ=:^AkU[dIc`NHSFj2
+R8
+31
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/labLog/practica2/decoder_2_to_4.vhd|
+Z24 !s107 /home/local/ITAM/esotomayg/Documents/labLog/practica2/decoder_2_to_4.vhd|
+!i113 1
+R13
+R14
+Afunction_table
+R2
+R3
+R4
+R5
+DEx4 work 14 decoder_2_to_4 0 22 ADU64=aY`D;F<XUT=jPS=0
+l17
+L16
+Vf8H:2JW3>bTjP:Rg`HoNo3
+!s100 Z_L4I>mGVlfg0azEMJABA2
+R8
+31
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Ediv_freq
+Z25 w1535725062
+R4
+R5
+R0
+Z26 8/home/local/ITAM/esotomayg/Documents/labLog/practica2/div_freq.vhd
+Z27 F/home/local/ITAM/esotomayg/Documents/labLog/practica2/div_freq.vhd
+l0
+L4
+V4Q[d_I[`=7=;<CQUFB@252
+!s100 fkTThV=AA2e88ad9anUoP3
+R8
+31
+R9
+!i10b 1
+R10
+Z28 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/labLog/practica2/div_freq.vhd|
+Z29 !s107 /home/local/ITAM/esotomayg/Documents/labLog/practica2/div_freq.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+DEx4 work 8 div_freq 0 22 4Q[d_I[`=7=;<CQUFB@252
+l16
+L13
+V=dabZ?le3^MizT7TNdJ>l3
+!s100 NRKdXG:H@Aah2BDz_kE3L2
+R8
+31
+R9
+!i10b 1
+R10
+R28
+R29
+!i113 1
+R13
+R14
+Emux_4_to_1
+Z30 w1536323573
+R2
+R3
+R4
+R5
+R0
+Z31 8/home/local/ITAM/esotomayg/Documents/labLog/practica2/mux_4_to_1.vhd
+Z32 F/home/local/ITAM/esotomayg/Documents/labLog/practica2/mux_4_to_1.vhd
+l0
+L6
+VK<n:[cKKYKBeE221B68GY1
+!s100 SY<ma9VD?gkLHJBL4cHD91
+R8
+31
+R9
+!i10b 1
+R10
+Z33 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/labLog/practica2/mux_4_to_1.vhd|
+Z34 !s107 /home/local/ITAM/esotomayg/Documents/labLog/practica2/mux_4_to_1.vhd|
+!i113 1
+R13
+R14
+Afunction_table
+R2
+R3
+R4
+R5
+DEx4 work 10 mux_4_to_1 0 22 K<n:[cKKYKBeE221B68GY1
+l18
+L17
+VjQIiT_@DUjOci1mDW<8QA1
+!s100 ]E1_80=22ccEc9`;_zLYI2
+R8
+31
+R9
+!i10b 1
+R10
+R33
+R34
+!i113 1
+R13
+R14

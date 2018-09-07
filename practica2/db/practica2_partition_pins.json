@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_1",
+					"strict" : false
+				},
+				{
+					"name" : "led_2",
+					"strict" : false
+				},
+				{
+					"name" : "led_3",
+					"strict" : false
+				},
+				{
+					"name" : "led_4",
+					"strict" : false
+				},
+				{
+					"name" : "bus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "bus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "bus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "bus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "bus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "bus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "bus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dip_4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
