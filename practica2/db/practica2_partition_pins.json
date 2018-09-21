@@ -20,31 +20,31 @@
 					"strict" : false
 				},
 				{
-					"name" : "bus[6]",
+					"name" : "bcd_to_7[6]",
 					"strict" : false
 				},
 				{
-					"name" : "bus[5]",
+					"name" : "bcd_to_7[5]",
 					"strict" : false
 				},
 				{
-					"name" : "bus[4]",
+					"name" : "bcd_to_7[4]",
 					"strict" : false
 				},
 				{
-					"name" : "bus[3]",
+					"name" : "bcd_to_7[3]",
 					"strict" : false
 				},
 				{
-					"name" : "bus[2]",
+					"name" : "bcd_to_7[2]",
 					"strict" : false
 				},
 				{
-					"name" : "bus[1]",
+					"name" : "bcd_to_7[1]",
 					"strict" : false
 				},
 				{
-					"name" : "bus[0]",
+					"name" : "bcd_to_7[0]",
 					"strict" : false
 				},
 				{

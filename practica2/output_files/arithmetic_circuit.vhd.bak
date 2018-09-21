@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity	arithmetic_circuit  is
+	port(
+		C_in   : IN  STD_LOGIC;
+		A      : IN  STD_LOGIC_VECTOR (15  DOWNTO  0);
+		B      : IN  STD_LOGIC_VECTOR (15  DOWNTO  0);
+		S      : IN  STD_LOGIC_VECTOR (1  DOWNTO  0);
+		C_out : OUT  STD_LOGIC;
+		G      : OUT  STD_LOGIC_VECTOR (15  DOWNTO  0)
+	);
+end arithmetic_circuit;
+
+architecture  function_table  of  arithmetic_circuit  is
+		begin
+			with S select 
+				Y <= A when "00",
+						  B when "01",
+						  C when "10",
+						  D when "11",
+						  "XXXX" when others;
+		
+end  arithmetic_circuit;

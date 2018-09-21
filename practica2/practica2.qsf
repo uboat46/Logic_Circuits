@@ -57,19 +57,9 @@ set_global_assignment -name VHDL_FILE decoder_2_to_4.vhd
 set_global_assignment -name VHDL_FILE cont2.vhd
 set_global_assignment -name VHDL_FILE div_freq.vhd
 set_global_assignment -name BDF_FILE practica2.bdf
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VHDL_FILE mux_4_to_1.vhd
 set_global_assignment -name VHDL_FILE bcd_to_7_segment.vhd
 set_location_assignment PIN_R8 -to clk
-set_location_assignment PIN_A5 -to bus[0]
-set_location_assignment PIN_B6 -to bus[1]
-set_location_assignment PIN_B7 -to bus[2]
-set_location_assignment PIN_A7 -to bus[3]
-set_location_assignment PIN_C8 -to bus[4]
-set_location_assignment PIN_E7 -to bus[5]
-set_location_assignment PIN_E8 -to bus[6]
 set_location_assignment PIN_F13 -to led_1
 set_location_assignment PIN_T15 -to led_2
 set_location_assignment PIN_T13 -to led_3
@@ -90,4 +80,18 @@ set_location_assignment PIN_P15 -to dip_4[0]
 set_location_assignment PIN_P16 -to dip_4[1]
 set_location_assignment PIN_R14 -to dip_4[2]
 set_location_assignment PIN_N16 -to dip_4[3]
+set_location_assignment PIN_E8 -to bcd_to_7[6]
+set_location_assignment PIN_E7 -to bcd_to_7[5]
+set_location_assignment PIN_C8 -to bcd_to_7[4]
+set_location_assignment PIN_A7 -to bcd_to_7[3]
+set_location_assignment PIN_B7 -to bcd_to_7[2]
+set_location_assignment PIN_B6 -to bcd_to_7[1]
+set_location_assignment PIN_A5 -to bcd_to_7[0]
+set_global_assignment -name VHDL_FILE practica3.vhd
+set_global_assignment -name VHDL_FILE arithmetic_circuit.vhd
+set_global_assignment -name VHDL_FILE binary_to_bcd.vhd
+set_global_assignment -name VHDL_FILE binary_to_bcd_digit.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

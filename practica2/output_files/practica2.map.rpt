@@ -1,5 +1,5 @@
 Analysis & Synthesis report for practica2
-Fri Sep  7 09:22:46 2018
+Fri Sep 21 11:26:51 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -45,7 +45,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Sep  7 09:22:46 2018       ;
+; Analysis & Synthesis Status        ; Successful - Fri Sep 21 11:26:51 2018       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; practica2                                   ;
 ; Top-level Entity Name              ; practica2                                   ;
@@ -165,18 +165,18 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                         ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                               ; Library ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
-; decoder_2_to_4.vhd               ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/labLog/practica2/decoder_2_to_4.vhd   ;         ;
-; cont2.vhd                        ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/labLog/practica2/cont2.vhd            ;         ;
-; div_freq.vhd                     ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/labLog/practica2/div_freq.vhd         ;         ;
-; practica2.bdf                    ; yes             ; User Block Diagram/Schematic File  ; /home/local/ITAM/esotomayg/Documents/labLog/practica2/practica2.bdf        ;         ;
-; mux_4_to_1.vhd                   ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/labLog/practica2/mux_4_to_1.vhd       ;         ;
-; bcd_to_7_segment.vhd             ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/labLog/practica2/bcd_to_7_segment.vhd ;         ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                 ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                       ; Library ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------+---------+
+; decoder_2_to_4.vhd               ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd   ;         ;
+; cont2.vhd                        ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd            ;         ;
+; div_freq.vhd                     ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd         ;         ;
+; practica2.bdf                    ; yes             ; User Block Diagram/Schematic File  ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica2.bdf        ;         ;
+; mux_4_to_1.vhd                   ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd       ;         ;
+; bcd_to_7_segment.vhd             ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd ;         ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -297,27 +297,39 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Sep  7 09:22:29 2018
+    Info: Processing started: Fri Sep 21 11:26:33 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off practica2 -c practica2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file decoder_2_to_4.vhd
-    Info (12022): Found design unit 1: decoder_2_to_4-function_table File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/decoder_2_to_4.vhd Line: 16
-    Info (12023): Found entity 1: decoder_2_to_4 File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/decoder_2_to_4.vhd Line: 6
+    Info (12022): Found design unit 1: decoder_2_to_4-function_table File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd Line: 16
+    Info (12023): Found entity 1: decoder_2_to_4 File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file cont2.vhd
-    Info (12022): Found design unit 1: cont2-Behavioral File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/cont2.vhd Line: 14
-    Info (12023): Found entity 1: cont2 File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/cont2.vhd Line: 6
+    Info (12022): Found design unit 1: cont2-Behavioral File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd Line: 14
+    Info (12023): Found entity 1: cont2 File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file div_freq.vhd
-    Info (12022): Found design unit 1: div_freq-Behavioral File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/div_freq.vhd Line: 13
-    Info (12023): Found entity 1: div_freq File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/div_freq.vhd Line: 4
+    Info (12022): Found design unit 1: div_freq-Behavioral File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd Line: 13
+    Info (12023): Found entity 1: div_freq File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file practica2.bdf
     Info (12023): Found entity 1: practica2
 Info (12021): Found 2 design units, including 1 entities, in source file mux_4_to_1.vhd
-    Info (12022): Found design unit 1: mux_4_to_1-function_table File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/mux_4_to_1.vhd Line: 17
-    Info (12023): Found entity 1: mux_4_to_1 File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/mux_4_to_1.vhd Line: 6
+    Info (12022): Found design unit 1: mux_4_to_1-function_table File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd Line: 17
+    Info (12023): Found entity 1: mux_4_to_1 File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file bcd_to_7_segment.vhd
-    Info (12022): Found design unit 1: bcd_to_7_segment-led_table File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/bcd_to_7_segment.vhd Line: 19
-    Info (12023): Found entity 1: bcd_to_7_segment File: /home/local/ITAM/esotomayg/Documents/labLog/practica2/bcd_to_7_segment.vhd Line: 6
+    Info (12022): Found design unit 1: bcd_to_7_segment-led_table File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd Line: 19
+    Info (12023): Found entity 1: bcd_to_7_segment File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file practica3.vhd
+    Info (12022): Found design unit 1: practica3-bdf_type File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd Line: 25
+    Info (12023): Found entity 1: practica3 File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file arithmetic_circuit.vhd
+    Info (12022): Found design unit 1: arithmetic_circuit-table File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd Line: 17
+    Info (12023): Found entity 1: arithmetic_circuit File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file binary_to_bcd.vhd
+    Info (12022): Found design unit 1: binary_to_bcd-logic File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd Line: 43
+    Info (12023): Found entity 1: binary_to_bcd File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd Line: 30
+Info (12021): Found 2 design units, including 1 entities, in source file binary_to_bcd_digit.vhd
+    Info (12022): Found design unit 1: binary_to_bcd_digit-logic File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd Line: 36
+    Info (12023): Found entity 1: binary_to_bcd_digit File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd Line: 26
 Info (12127): Elaborating entity "practica2" for the top level hierarchy
 Info (12128): Elaborating entity "decoder_2_to_4" for hierarchy "decoder_2_to_4:inst4"
 Info (12128): Elaborating entity "cont2" for hierarchy "cont2:inst3"
@@ -332,9 +344,9 @@ Info (21057): Implemented 79 device resources after synthesis - the final resour
     Info (21059): Implemented 11 output pins
     Info (21061): Implemented 51 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 971 megabytes
-    Info: Processing ended: Fri Sep  7 09:22:46 2018
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:39
+    Info: Peak virtual memory: 976 megabytes
+    Info: Processing ended: Fri Sep 21 11:26:51 2018
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:43
 
 

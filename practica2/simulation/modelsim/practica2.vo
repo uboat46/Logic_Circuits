@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition"
 
-// DATE "09/07/2018 09:23:02"
+// DATE "09/21/2018 11:27:06"
 
 // 
 // Device: Altera EP4CE22F17C6 Package FBGA256
@@ -35,7 +35,7 @@ module practica2 (
 	led_2,
 	led_3,
 	led_4,
-	bus,
+	bcd_to_7,
 	dip_1,
 	dip_2,
 	dip_3,
@@ -45,7 +45,7 @@ input 	clk;
 output 	led_2;
 output 	led_3;
 output 	led_4;
-output 	[6:0] bus;
+output 	[6:0] bcd_to_7;
 input 	[0:3] dip_1;
 input 	[0:3] dip_2;
 input 	[0:3] dip_3;
@@ -56,13 +56,13 @@ input 	[0:3] dip_4;
 // led_2	=>  Location: PIN_T15,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // led_3	=>  Location: PIN_T13,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // led_4	=>  Location: PIN_T12,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// bus[6]	=>  Location: PIN_E8,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// bus[5]	=>  Location: PIN_E7,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// bus[4]	=>  Location: PIN_C8,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// bus[3]	=>  Location: PIN_A7,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// bus[2]	=>  Location: PIN_B7,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// bus[1]	=>  Location: PIN_B6,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// bus[0]	=>  Location: PIN_A5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_to_7[6]	=>  Location: PIN_E8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_to_7[5]	=>  Location: PIN_E7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_to_7[4]	=>  Location: PIN_C8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_to_7[3]	=>  Location: PIN_A7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_to_7[2]	=>  Location: PIN_B7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_to_7[1]	=>  Location: PIN_B6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_to_7[0]	=>  Location: PIN_A5,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // dip_3[0]	=>  Location: PIN_L16,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // dip_2[0]	=>  Location: PIN_N12,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // dip_1[0]	=>  Location: PIN_T10,	 I/O Standard: 2.5 V,	 Current Strength: Default
@@ -101,13 +101,13 @@ wire \led_1~output_o ;
 wire \led_2~output_o ;
 wire \led_3~output_o ;
 wire \led_4~output_o ;
-wire \bus[6]~output_o ;
-wire \bus[5]~output_o ;
-wire \bus[4]~output_o ;
-wire \bus[3]~output_o ;
-wire \bus[2]~output_o ;
-wire \bus[1]~output_o ;
-wire \bus[0]~output_o ;
+wire \bcd_to_7[6]~output_o ;
+wire \bcd_to_7[5]~output_o ;
+wire \bcd_to_7[4]~output_o ;
+wire \bcd_to_7[3]~output_o ;
+wire \bcd_to_7[2]~output_o ;
+wire \bcd_to_7[1]~output_o ;
+wire \bcd_to_7[0]~output_o ;
 wire \clk~input_o ;
 wire \clk~inputclkctrl_outclk ;
 wire \inst2|Add0~0_combout ;
@@ -258,94 +258,94 @@ defparam \led_4~output .open_drain_output = "false";
 // synopsys translate_on
 
 // Location: IOOBUF_X20_Y34_N9
-cycloneive_io_obuf \bus[6]~output (
+cycloneive_io_obuf \bcd_to_7[6]~output (
 	.i(\inst5|G~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
-	.o(\bus[6]~output_o ),
+	.o(\bcd_to_7[6]~output_o ),
 	.obar());
 // synopsys translate_off
-defparam \bus[6]~output .bus_hold = "false";
-defparam \bus[6]~output .open_drain_output = "false";
+defparam \bcd_to_7[6]~output .bus_hold = "false";
+defparam \bcd_to_7[6]~output .open_drain_output = "false";
 // synopsys translate_on
 
 // Location: IOOBUF_X16_Y34_N16
-cycloneive_io_obuf \bus[5]~output (
+cycloneive_io_obuf \bcd_to_7[5]~output (
 	.i(\inst5|F~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
-	.o(\bus[5]~output_o ),
+	.o(\bcd_to_7[5]~output_o ),
 	.obar());
 // synopsys translate_off
-defparam \bus[5]~output .bus_hold = "false";
-defparam \bus[5]~output .open_drain_output = "false";
+defparam \bcd_to_7[5]~output .bus_hold = "false";
+defparam \bcd_to_7[5]~output .open_drain_output = "false";
 // synopsys translate_on
 
 // Location: IOOBUF_X23_Y34_N16
-cycloneive_io_obuf \bus[4]~output (
+cycloneive_io_obuf \bcd_to_7[4]~output (
 	.i(\inst5|E~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
-	.o(\bus[4]~output_o ),
+	.o(\bcd_to_7[4]~output_o ),
 	.obar());
 // synopsys translate_off
-defparam \bus[4]~output .bus_hold = "false";
-defparam \bus[4]~output .open_drain_output = "false";
+defparam \bcd_to_7[4]~output .bus_hold = "false";
+defparam \bcd_to_7[4]~output .open_drain_output = "false";
 // synopsys translate_on
 
 // Location: IOOBUF_X20_Y34_N23
-cycloneive_io_obuf \bus[3]~output (
+cycloneive_io_obuf \bcd_to_7[3]~output (
 	.i(\inst5|D~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
-	.o(\bus[3]~output_o ),
+	.o(\bcd_to_7[3]~output_o ),
 	.obar());
 // synopsys translate_off
-defparam \bus[3]~output .bus_hold = "false";
-defparam \bus[3]~output .open_drain_output = "false";
+defparam \bcd_to_7[3]~output .bus_hold = "false";
+defparam \bcd_to_7[3]~output .open_drain_output = "false";
 // synopsys translate_on
 
 // Location: IOOBUF_X18_Y34_N2
-cycloneive_io_obuf \bus[2]~output (
+cycloneive_io_obuf \bcd_to_7[2]~output (
 	.i(\inst5|C~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
-	.o(\bus[2]~output_o ),
+	.o(\bcd_to_7[2]~output_o ),
 	.obar());
 // synopsys translate_off
-defparam \bus[2]~output .bus_hold = "false";
-defparam \bus[2]~output .open_drain_output = "false";
+defparam \bcd_to_7[2]~output .bus_hold = "false";
+defparam \bcd_to_7[2]~output .open_drain_output = "false";
 // synopsys translate_on
 
 // Location: IOOBUF_X16_Y34_N9
-cycloneive_io_obuf \bus[1]~output (
+cycloneive_io_obuf \bcd_to_7[1]~output (
 	.i(\inst5|B~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
-	.o(\bus[1]~output_o ),
+	.o(\bcd_to_7[1]~output_o ),
 	.obar());
 // synopsys translate_off
-defparam \bus[1]~output .bus_hold = "false";
-defparam \bus[1]~output .open_drain_output = "false";
+defparam \bcd_to_7[1]~output .bus_hold = "false";
+defparam \bcd_to_7[1]~output .open_drain_output = "false";
 // synopsys translate_on
 
 // Location: IOOBUF_X14_Y34_N23
-cycloneive_io_obuf \bus[0]~output (
+cycloneive_io_obuf \bcd_to_7[0]~output (
 	.i(\inst5|A~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
-	.o(\bus[0]~output_o ),
+	.o(\bcd_to_7[0]~output_o ),
 	.obar());
 // synopsys translate_off
-defparam \bus[0]~output .bus_hold = "false";
-defparam \bus[0]~output .open_drain_output = "false";
+defparam \bcd_to_7[0]~output .bus_hold = "false";
+defparam \bcd_to_7[0]~output .open_drain_output = "false";
 // synopsys translate_on
 
 // Location: IOIBUF_X27_Y0_N22
@@ -1834,19 +1834,19 @@ assign led_3 = \led_3~output_o ;
 
 assign led_4 = \led_4~output_o ;
 
-assign bus[6] = \bus[6]~output_o ;
+assign bcd_to_7[6] = \bcd_to_7[6]~output_o ;
 
-assign bus[5] = \bus[5]~output_o ;
+assign bcd_to_7[5] = \bcd_to_7[5]~output_o ;
 
-assign bus[4] = \bus[4]~output_o ;
+assign bcd_to_7[4] = \bcd_to_7[4]~output_o ;
 
-assign bus[3] = \bus[3]~output_o ;
+assign bcd_to_7[3] = \bcd_to_7[3]~output_o ;
 
-assign bus[2] = \bus[2]~output_o ;
+assign bcd_to_7[2] = \bcd_to_7[2]~output_o ;
 
-assign bus[1] = \bus[1]~output_o ;
+assign bcd_to_7[1] = \bcd_to_7[1]~output_o ;
 
-assign bus[0] = \bus[0]~output_o ;
+assign bcd_to_7[0] = \bcd_to_7[0]~output_o ;
 
 endmodule
 
