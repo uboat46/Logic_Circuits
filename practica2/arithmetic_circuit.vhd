@@ -25,6 +25,7 @@ architecture table	of  arithmetic_circuit  is
 						  (A + NOT(B)) when "100",
 						  (A - B) when "101",
 						  (A - 1) when "110",
-						  A when "111";
+						  A when "111",
+						  "XXXXXXXXXXXXXXXX" when others;
 		
 end table;

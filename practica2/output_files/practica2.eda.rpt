@@ -1,5 +1,5 @@
 EDA Netlist Writer report for practica2
-Fri Sep 21 11:27:06 2018
+Fri Sep 21 12:53:16 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -37,9 +37,9 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Sep 21 11:27:06 2018 ;
+; EDA Netlist Writer Status ; Successful - Fri Sep 21 12:53:16 2018 ;
 ; Revision Name             ; practica2                             ;
-; Top-level Entity Name     ; practica2                             ;
+; Top-level Entity Name     ; practica3                             ;
 ; Family                    ; Cyclone IV E                          ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -67,20 +67,20 @@ agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                           ;
-+----------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                      ;
-+----------------------------------------------------------------------------------------------------------------------+
-; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_6_1200mv_85c_slow.vo     ;
-; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_6_1200mv_0c_slow.vo      ;
-; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_min_1200mv_0c_fast.vo    ;
-; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2.vo                       ;
-; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_6_1200mv_85c_v_slow.sdo  ;
-; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_6_1200mv_0c_v_slow.sdo   ;
-; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_min_1200mv_0c_v_fast.sdo ;
-; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_v.sdo                    ;
-+----------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                               ;
++----------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                          ;
++----------------------------------------------------------------------------------------------------------+
+; /home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_6_1200mv_85c_slow.vo     ;
+; /home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_6_1200mv_0c_slow.vo      ;
+; /home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_min_1200mv_0c_fast.vo    ;
+; /home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2.vo                       ;
+; /home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_6_1200mv_85c_v_slow.sdo  ;
+; /home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_6_1200mv_0c_v_slow.sdo   ;
+; /home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_min_1200mv_0c_v_fast.sdo ;
+; /home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/practica2_v.sdo                    ;
++----------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -89,21 +89,21 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Sep 21 11:27:05 2018
+    Info: Processing started: Fri Sep 21 12:53:14 2018
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off practica2 -c practica2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file practica2_6_1200mv_85c_slow.vo in folder "/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file practica2_6_1200mv_0c_slow.vo in folder "/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file practica2_min_1200mv_0c_fast.vo in folder "/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file practica2.vo in folder "/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file practica2_6_1200mv_85c_v_slow.sdo in folder "/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file practica2_6_1200mv_0c_v_slow.sdo in folder "/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file practica2_min_1200mv_0c_v_fast.sdo in folder "/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file practica2_v.sdo in folder "/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file practica2_6_1200mv_85c_slow.vo in folder "/home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file practica2_6_1200mv_0c_slow.vo in folder "/home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file practica2_min_1200mv_0c_fast.vo in folder "/home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file practica2.vo in folder "/home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file practica2_6_1200mv_85c_v_slow.sdo in folder "/home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file practica2_6_1200mv_0c_v_slow.sdo in folder "/home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file practica2_min_1200mv_0c_v_fast.sdo in folder "/home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file practica2_v.sdo in folder "/home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1060 megabytes
-    Info: Processing ended: Fri Sep 21 11:27:06 2018
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 1054 megabytes
+    Info: Processing ended: Fri Sep 21 12:53:16 2018
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

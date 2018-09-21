@@ -1,5 +1,5 @@
 Assembler report for practica2
-Fri Sep 21 11:27:01 2018
+Fri Sep 21 12:53:11 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -38,9 +38,9 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Sep 21 11:27:01 2018 ;
+; Assembler Status      ; Successful - Fri Sep 21 12:53:11 2018 ;
 ; Revision Name         ; practica2                             ;
-; Top-level Entity Name ; practica2                             ;
+; Top-level Entity Name ; practica3                             ;
 ; Family                ; Cyclone IV E                          ;
 ; Device                ; EP4CE22F17C6                          ;
 +-----------------------+---------------------------------------+
@@ -53,13 +53,13 @@ agreement for further details.
 +--------+---------+---------------+
 
 
-+------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                ;
-+------------------------------------------------------------------------------------------+
-; File Name                                                                                ;
-+------------------------------------------------------------------------------------------+
-; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/output_files/practica2.sof ;
-+------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------+
+; Assembler Generated Files                                                    ;
++------------------------------------------------------------------------------+
+; File Name                                                                    ;
++------------------------------------------------------------------------------+
+; /home/robotica/Documents/Logic_Circuits/practica2/output_files/practica2.sof ;
++------------------------------------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -67,8 +67,8 @@ agreement for further details.
 +----------------+------------------------+
 ; Option         ; Setting                ;
 +----------------+------------------------+
-; JTAG usercode  ; 0x0013CA8F             ;
-; Checksum       ; 0x0013CA8F             ;
+; JTAG usercode  ; 0x00151811             ;
+; Checksum       ; 0x00151811             ;
 +----------------+------------------------+
 
 
@@ -78,15 +78,15 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Sep 21 11:27:00 2018
+    Info: Processing started: Fri Sep 21 12:53:09 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off practica2 -c practica2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 821 megabytes
-    Info: Processing ended: Fri Sep 21 11:27:01 2018
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 811 megabytes
+    Info: Processing ended: Fri Sep 21 12:53:11 2018
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

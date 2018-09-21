@@ -4,115 +4,139 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "led_1",
+					"name" : "act_dis1",
 					"strict" : false
 				},
 				{
-					"name" : "led_2",
+					"name" : "act_dis2",
 					"strict" : false
 				},
 				{
-					"name" : "led_3",
+					"name" : "act_dis4",
 					"strict" : false
 				},
 				{
-					"name" : "led_4",
+					"name" : "act_dis3",
 					"strict" : false
 				},
 				{
-					"name" : "bcd_to_7[6]",
+					"name" : "display[0]",
 					"strict" : false
 				},
 				{
-					"name" : "bcd_to_7[5]",
+					"name" : "display[1]",
 					"strict" : false
 				},
 				{
-					"name" : "bcd_to_7[4]",
+					"name" : "display[2]",
 					"strict" : false
 				},
 				{
-					"name" : "bcd_to_7[3]",
+					"name" : "display[3]",
 					"strict" : false
 				},
 				{
-					"name" : "bcd_to_7[2]",
+					"name" : "display[4]",
 					"strict" : false
 				},
 				{
-					"name" : "bcd_to_7[1]",
+					"name" : "display[5]",
 					"strict" : false
 				},
 				{
-					"name" : "bcd_to_7[0]",
+					"name" : "display[6]",
 					"strict" : false
 				},
 				{
-					"name" : "dip_3[0]",
+					"name" : "oper_led[0]",
 					"strict" : false
 				},
 				{
-					"name" : "dip_2[0]",
+					"name" : "oper_led[1]",
 					"strict" : false
 				},
 				{
-					"name" : "dip_1[0]",
+					"name" : "oper_led[2]",
 					"strict" : false
 				},
 				{
-					"name" : "dip_4[0]",
+					"name" : "Oper[0]",
 					"strict" : false
 				},
 				{
-					"name" : "dip_3[1]",
+					"name" : "Oper[1]",
 					"strict" : false
 				},
 				{
-					"name" : "dip_2[1]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_1[1]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_4[1]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_3[3]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_2[3]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_1[3]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_4[3]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_2[2]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_3[2]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_1[2]",
-					"strict" : false
-				},
-				{
-					"name" : "dip_4[2]",
+					"name" : "Oper[2]",
 					"strict" : false
 				},
 				{
 					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "I_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I_3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I_3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "I_3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "I_3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I_1[3]",
 					"strict" : false
 				}
 			]
