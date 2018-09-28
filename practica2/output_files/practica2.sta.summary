@@ -3,72 +3,72 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -2.495
-TNS   : -81.626
+Slack : -2.594
+TNS   : -21.928
 
 Type  : Slow 1200mV 85C Model Setup 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
-Slack : 0.193
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : 0.344
+Slack : 0.178
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
-Slack : 0.359
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.555
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -78.000
+TNS   : -21.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
 Slack : -1.000
 TNS   : -2.000
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -2.191
-TNS   : -65.392
+Slack : -2.229
+TNS   : -17.520
 
 Type  : Slow 1200mV 0C Model Setup 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
-Slack : 0.275
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.299
+Slack : 0.262
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
-Slack : 0.313
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.499
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -78.000
+TNS   : -21.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
 Slack : -1.000
 TNS   : -2.000
 
 Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -0.993
-TNS   : -16.699
+Slack : -1.077
+TNS   : -5.178
 
 Type  : Fast 1200mV 0C Model Setup 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
-Slack : 0.551
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : 0.179
+Slack : 0.539
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
-Slack : 0.188
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.296
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -82.159
+TNS   : -21.990
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
 Slack : -1.000

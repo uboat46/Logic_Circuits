@@ -50,19 +50,6 @@ ARCHITECTURE bdf_type OF practica3 IS
 	);
 	END COMPONENT;
 	
-	COMPONENT  binary_to_bcd
-		GENERIC(
-		bits		:	INTEGER := 16;		--size of the binary input numbers in bits
-		digits	:	INTEGER := 4);		--number of BCD digits to convert to
-	PORT(
-		clk		:	IN		STD_LOGIC;											--system clock
-		reset_n	:	IN		STD_LOGIC;											--active low asynchronus reset
-		ena		:	IN		STD_LOGIC;											--latches in new binary number and starts conversion
-		binary	:	IN		STD_LOGIC_VECTOR(bits-1 DOWNTO 0);			--binary number to convert
-		busy		:	OUT	STD_LOGIC;											--indicates conversion in progress
-		bcd		:	OUT	STD_LOGIC_VECTOR(digits*4-1 DOWNTO 0));
-
-	END  COMPONENT;
 	
 	SIGNAL   A_in :   STD_LOGIC_VECTOR (15  DOWNTO  0);
 	SIGNAL   B_in :   STD_LOGIC_VECTOR (15  DOWNTO  0);
@@ -75,10 +62,10 @@ ARCHITECTURE bdf_type OF practica3 IS
 	b2v_inst_practica2 : practica2
 		PORT  MAP(
 			clk => clk ,
-			dip_1 => BCD(12 TO 15),
-			dip_2 => BCD(8 TO 11),
-			dip_3 => BCD(4 TO 7),
-			dip_4 => BCD(0 TO 3),
+			dip_1 => G(15 DOWNTO 12),
+			dip_2 => G(11 DOWNTO 8),
+			dip_3 => G(7 DOWNTO 4),
+			dip_4 => G(3 DOWNTO 0),
 			led_1 => act_dis1 ,
 			led_2 => act_dis2 ,
 			led_3 => act_dis3 ,
@@ -97,14 +84,7 @@ ARCHITECTURE bdf_type OF practica3 IS
 			G => G
 		);
 		
-	stbin : binary_to_bcd
-		PORT	MAP(
-			CLK => clk,
-			reset_n => '1',
-			ena => '1',
-			binary => G,
-			bcd => BCD
-		);
+	
 		
 	A_in(7  DOWNTO  4)  <= I_0;
 	A_in(3  DOWNTO  0)  <= I_1;

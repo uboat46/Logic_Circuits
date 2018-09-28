@@ -15,17 +15,25 @@ entity	arithmetic_circuit  is
 end arithmetic_circuit;
 
 architecture table	of  arithmetic_circuit  is
-	SIGNAL INS : 	STD_LOGIC_VECTOR (2 DOWNTO 0) := S & C_in;
+	SIGNAL INS : 	STD_LOGIC_VECTOR (2 DOWNTO 0);
+	SIGNAL A_aux : 	STD_LOGIC_VECTOR (16 DOWNTO 0);
+	SIGNAL B_aux : 	STD_LOGIC_VECTOR (16 DOWNTO 0);
+	SIGNAL G_aux : 	STD_LOGIC_VECTOR (16 DOWNTO 0);
 	BEGIN
+		INS <= S & C_in;
+		A_aux <= "0" & A;
+		B_aux <= "0" & B;
 		with INS select 
-				G <= A when "000",
-						  (A + 1) when "001",
-						  (A + B) when "010",
-						  (A + B + 1) when "011",
-						  (A + NOT(B)) when "100",
-						  (A - B) when "101",
-						  (A - 1) when "110",
-						  A when "111",
-						  "XXXXXXXXXXXXXXXX" when others;
+				G_aux <= A_aux when "000",
+						  (A_aux + 1) when "001",
+						  (A_aux + B_aux) when "010",
+						  (A_aux + B_aux + 1) when "011",
+						  (A_aux + NOT(B_aux)) when "100",
+						  (A_aux - B_aux) when "101",
+						  (A_aux - 1) when "110",
+						  A_aux when "111",
+						  "XXXXXXXXXXXXXXXXX" when others;
+		G <= G_aux(15 DOWNTO 0);
+		C_out <= G_aux(16);
 		
 end table;

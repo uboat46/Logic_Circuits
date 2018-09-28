@@ -7,27 +7,27 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/robotica/Documents/Logic_Circuits/practica2/simulation/modelsim
+Z0 d/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/simulation/modelsim
 Earithmetic_circuit
-Z1 w1537552355
+Z1 w1538140691
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z6 8/home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd
-Z7 F/home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd
+Z6 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd
+Z7 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd
 l0
 L6
 V?zKkR7cn88Q@al3^Jhao32
 !s100 mc1f^_6MbPhPfDW=zJi1i1
 Z8 OV;C;10.5b;63
 31
-Z9 !s110 1537552406
+Z9 !s110 1538140737
 !i10b 1
-Z10 !s108 1537552406.000000
-Z11 !s90 -reportprogress|300|-93|-work|work|/home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd|
-Z12 !s107 /home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd|
+Z10 !s108 1538140737.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd|
+Z12 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd|
 !i113 1
 Z13 o-93 -work work
 Z14 tExplicit 1 CvgOpt 0
@@ -37,10 +37,10 @@ R3
 R4
 R5
 DEx4 work 18 arithmetic_circuit 0 22 ?zKkR7cn88Q@al3^Jhao32
-l19
+l22
 L17
-Vn^fSQn;F9HmdbXG[_M4T;3
-!s100 ?IjQiD3@<6b<zU>hFCP1V0
+V[<f5f>_lA?H@4Sad7ZZWj2
+!s100 8bOQhUVfOHoRD[I8d:70d0
 R8
 31
 R9
@@ -52,14 +52,14 @@ R12
 R13
 R14
 Ebcd_to_7_segment
-Z15 w1537551982
+Z15 w1538136944
 R2
 R3
 R4
 R5
 R0
-Z16 8/home/robotica/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd
-Z17 F/home/robotica/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd
+Z16 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd
+Z17 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd
 l0
 L6
 VzM[WDg8:J>I=Nc>OK_Xic3
@@ -69,8 +69,8 @@ R8
 R9
 !i10b 1
 R10
-Z18 !s90 -reportprogress|300|-93|-work|work|/home/robotica/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd|
-Z19 !s107 /home/robotica/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd|
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd|
+Z19 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd|
 !i113 1
 R13
 R14
@@ -99,8 +99,8 @@ R15
 R4
 R5
 R0
-Z20 8/home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd
-Z21 F/home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd
+Z20 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd
+Z21 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd
 l0
 L30
 VdO4[DSKcN;_3fl;NUHG851
@@ -110,8 +110,8 @@ R8
 R9
 !i10b 1
 R10
-Z22 !s90 -reportprogress|300|-93|-work|work|/home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd|
-Z23 !s107 /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd|
+Z22 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd|
+Z23 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd|
 !i113 1
 R13
 R14
@@ -138,19 +138,19 @@ R15
 R4
 R5
 R0
-Z24 8/home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd
-Z25 F/home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd
+Z24 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd
+Z25 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd
 l0
 L26
 VM2TSkCU7@faYF]e<R;=g=3
 !s100 @jfijB;4d@1K@oH@I3gD23
 R8
 31
-Z26 !s110 1537552407
+R9
 !i10b 1
 R10
-Z27 !s90 -reportprogress|300|-93|-work|work|/home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd|
-Z28 !s107 /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd|
+Z26 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd|
+Z27 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd|
 !i113 1
 R13
 R14
@@ -164,11 +164,11 @@ V0[ImoJ;dY:]XC_L`9=:`j3
 !s100 DnAo;RPL`PlPT>`Wzgcbb3
 R8
 31
-R26
+R9
 !i10b 1
 R10
+R26
 R27
-R28
 !i113 1
 R13
 R14
@@ -179,8 +179,8 @@ R3
 R4
 R5
 R0
-Z29 8/home/robotica/Documents/Logic_Circuits/practica2/cont2.vhd
-Z30 F/home/robotica/Documents/Logic_Circuits/practica2/cont2.vhd
+Z28 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd
+Z29 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd
 l0
 L6
 Va:;n5UmKP_LBbegl66:l43
@@ -190,8 +190,8 @@ R8
 R9
 !i10b 1
 R10
-Z31 !s90 -reportprogress|300|-93|-work|work|/home/robotica/Documents/Logic_Circuits/practica2/cont2.vhd|
-Z32 !s107 /home/robotica/Documents/Logic_Circuits/practica2/cont2.vhd|
+Z30 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd|
+Z31 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd|
 !i113 1
 R13
 R14
@@ -210,8 +210,8 @@ R8
 R9
 !i10b 1
 R10
+R30
 R31
-R32
 !i113 1
 R13
 R14
@@ -222,8 +222,8 @@ R3
 R4
 R5
 R0
-Z33 8/home/robotica/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd
-Z34 F/home/robotica/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd
+Z32 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd
+Z33 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd
 l0
 L6
 VADU64=aY`D;F<XUT=jPS=0
@@ -233,8 +233,8 @@ R8
 R9
 !i10b 1
 R10
-Z35 !s90 -reportprogress|300|-93|-work|work|/home/robotica/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd|
-Z36 !s107 /home/robotica/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd|
+Z34 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd|
+Z35 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd|
 !i113 1
 R13
 R14
@@ -253,8 +253,8 @@ R8
 R9
 !i10b 1
 R10
+R34
 R35
-R36
 !i113 1
 R13
 R14
@@ -263,8 +263,8 @@ R15
 R4
 R5
 R0
-Z37 8/home/robotica/Documents/Logic_Circuits/practica2/div_freq.vhd
-Z38 F/home/robotica/Documents/Logic_Circuits/practica2/div_freq.vhd
+Z36 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd
+Z37 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd
 l0
 L4
 V4Q[d_I[`=7=;<CQUFB@252
@@ -274,8 +274,8 @@ R8
 R9
 !i10b 1
 R10
-Z39 !s90 -reportprogress|300|-93|-work|work|/home/robotica/Documents/Logic_Circuits/practica2/div_freq.vhd|
-Z40 !s107 /home/robotica/Documents/Logic_Circuits/practica2/div_freq.vhd|
+Z38 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd|
+Z39 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd|
 !i113 1
 R13
 R14
@@ -292,8 +292,8 @@ R8
 R9
 !i10b 1
 R10
+R38
 R39
-R40
 !i113 1
 R13
 R14
@@ -304,8 +304,8 @@ R3
 R4
 R5
 R0
-Z41 8/home/robotica/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd
-Z42 F/home/robotica/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd
+Z40 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd
+Z41 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd
 l0
 L6
 VK<n:[cKKYKBeE221B68GY1
@@ -315,8 +315,8 @@ R8
 R9
 !i10b 1
 R10
-Z43 !s90 -reportprogress|300|-93|-work|work|/home/robotica/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd|
-Z44 !s107 /home/robotica/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd|
+Z42 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd|
+Z43 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd|
 !i113 1
 R13
 R14
@@ -335,8 +335,8 @@ R8
 R9
 !i10b 1
 R10
+R42
 R43
-R44
 !i113 1
 R13
 R14
@@ -347,8 +347,8 @@ R3
 R4
 R5
 R0
-Z45 8/home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd
-Z46 F/home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd
+Z44 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd
+Z45 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd
 l0
 L7
 VkOF>CU5=db44ZLelj9<fL0
@@ -358,8 +358,8 @@ R8
 R9
 !i10b 1
 R10
-Z47 !s90 -reportprogress|300|-93|-work|work|/home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd|
-Z48 !s107 /home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd|
+Z46 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd|
+Z47 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd|
 !i113 1
 R13
 R14
@@ -378,8 +378,8 @@ R8
 R9
 !i10b 1
 R10
+R46
 R47
-R48
 !i113 1
 R13
 R14

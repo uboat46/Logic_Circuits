@@ -9,10 +9,10 @@
 # Copying /opt/altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {/home/robotica/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd}
+# vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:53:26 on Sep 21,2018
-# vcom -reportprogress 300 -93 -work work /home/robotica/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd 
+# Start time: 08:18:57 on Sep 28,2018
+# vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -20,12 +20,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity decoder_2_to_4
 # -- Compiling architecture function_table of decoder_2_to_4
-# End time: 12:53:26 on Sep 21,2018, Elapsed time: 0:00:00
+# End time: 08:18:57 on Sep 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/robotica/Documents/Logic_Circuits/practica2/cont2.vhd}
+# vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:53:26 on Sep 21,2018
-# vcom -reportprogress 300 -93 -work work /home/robotica/Documents/Logic_Circuits/practica2/cont2.vhd 
+# Start time: 08:18:57 on Sep 28,2018
+# vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -33,23 +33,23 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity cont2
 # -- Compiling architecture Behavioral of cont2
-# End time: 12:53:26 on Sep 21,2018, Elapsed time: 0:00:00
+# End time: 08:18:57 on Sep 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/robotica/Documents/Logic_Circuits/practica2/div_freq.vhd}
+# vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:53:26 on Sep 21,2018
-# vcom -reportprogress 300 -93 -work work /home/robotica/Documents/Logic_Circuits/practica2/div_freq.vhd 
+# Start time: 08:18:57 on Sep 28,2018
+# vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity div_freq
 # -- Compiling architecture Behavioral of div_freq
-# End time: 12:53:26 on Sep 21,2018, Elapsed time: 0:00:00
+# End time: 08:18:57 on Sep 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/robotica/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd}
+# vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:53:26 on Sep 21,2018
-# vcom -reportprogress 300 -93 -work work /home/robotica/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd 
+# Start time: 08:18:57 on Sep 28,2018
+# vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -57,12 +57,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity mux_4_to_1
 # -- Compiling architecture function_table of mux_4_to_1
-# End time: 12:53:26 on Sep 21,2018, Elapsed time: 0:00:00
+# End time: 08:18:57 on Sep 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/robotica/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd}
+# vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:53:26 on Sep 21,2018
-# vcom -reportprogress 300 -93 -work work /home/robotica/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd 
+# Start time: 08:18:57 on Sep 28,2018
+# vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -70,12 +70,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity bcd_to_7_segment
 # -- Compiling architecture led_table of bcd_to_7_segment
-# End time: 12:53:26 on Sep 21,2018, Elapsed time: 0:00:00
+# End time: 08:18:57 on Sep 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd}
+# vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:53:26 on Sep 21,2018
-# vcom -reportprogress 300 -93 -work work /home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd 
+# Start time: 08:18:57 on Sep 28,2018
+# vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -83,12 +83,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity practica3
 # -- Compiling architecture bdf_type of practica3
-# End time: 12:53:26 on Sep 21,2018, Elapsed time: 0:00:00
+# End time: 08:18:57 on Sep 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd}
+# vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:53:26 on Sep 21,2018
-# vcom -reportprogress 300 -93 -work work /home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd 
+# Start time: 08:18:57 on Sep 28,2018
+# vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -96,38 +96,36 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity arithmetic_circuit
 # -- Compiling architecture table of arithmetic_circuit
-# ** Warning: /home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd(18): (vcom-1013) Initial value of "INS" depends on value of signal "S".
-# ** Warning: /home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd(18): (vcom-1013) Initial value of "INS" depends on value of signal "C_in".
-# End time: 12:53:26 on Sep 21,2018, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
-# vcom -93 -work work {/home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd}
+# End time: 08:18:57 on Sep 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:53:26 on Sep 21,2018
-# vcom -reportprogress 300 -93 -work work /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd 
+# Start time: 08:18:57 on Sep 28,2018
+# vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity binary_to_bcd
 # -- Compiling architecture logic of binary_to_bcd
-# End time: 12:53:26 on Sep 21,2018, Elapsed time: 0:00:00
+# End time: 08:18:57 on Sep 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd}
+# vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:53:26 on Sep 21,2018
-# vcom -reportprogress 300 -93 -work work /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd 
+# Start time: 08:18:57 on Sep 28,2018
+# vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity binary_to_bcd_digit
 # -- Compiling architecture logic of binary_to_bcd_digit
-# End time: 12:53:26 on Sep 21,2018, Elapsed time: 0:00:00
+# End time: 08:18:57 on Sep 28,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # 
 # stdin: <EOF>
-vsim work.arithmetic_circuit(table)
-# vsim work.arithmetic_circuit(table) 
-# Start time: 12:53:30 on Sep 21,2018
+vsim work.arithmetic_circuit
+# vsim work.arithmetic_circuit 
+# Start time: 08:19:07 on Sep 28,2018
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -136,54 +134,14 @@ vsim work.arithmetic_circuit(table)
 # Loading work.arithmetic_circuit(table)
 wave create -driver freeze -pattern constant -value 0000000000000001 -range 15 0 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/A
 # Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
-wave create -driver freeze -pattern constant -value 0000000000000001 -range 15 0 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/B
-# Load canceled
-# Load canceled
-run -all
-add wave -position insertpoint  \
-sim:/arithmetic_circuit/C_in
-wave export -file {} -starttime 0 -endtime 1000 -format force -designunit arithmetic_circuit
-# errormessage
-# Export file not specified.
-# Usage : wave export -file <name> -starttime <time> -endtime <time> -format  <["force" | "vcd" | "vhdl" | "vlog"]> -designunit <name> [-f]wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/C_in
-# arithmetic_circuit
-run -all
-run -all
-# 
-# Internal Error: In tclprim_ApplyStimulus for /arithmetic_circuit/C_in "Time value must be greater than "now": 1000 ps
-# ** Error: (vsim-4004) The -cancel option requires a time period argument.
-# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
-run -all
-wave create -driver freeze -pattern constant -value 01 -range 1 0 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/S
-# arithmetic_circuit
-run -all
-wave create -pattern constant -value 010 -range 2 0 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/INS
-# arithmetic_circuit
-run -all
-run -all
-wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/C_in
-# arithmetic_circuit
-run -all
-# 
-# Internal Error: In tclprim_ApplyStimulus for /arithmetic_circuit/C_in "Time value must be greater than "now": 1000 ps
-# ** Error: (vsim-4004) The -cancel option requires a time period argument.
-# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
-run -all
-# 
-# Internal Error: In tclprim_ApplyStimulus for /arithmetic_circuit/C_in "Time value must be greater than "now": 1000 ps
-# ** Error: (vsim-4004) The -cancel option requires a time period argument.
-# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+wave create -driver freeze -pattern constant -value 1111111111111111 -range 15 0 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/B
+wave create -driver freeze -pattern constant -value 00 -range 1 0 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/S
 wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/C_in
-# /arithmetic_circuit/C_in already exists in the wave, cannot add twice
-# Usage: wave create -pattern <clock|constant|random|repeater|counter|none> <args>
-# See Command Reference manual for pattern specific <args>
-wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/C_in
-# arithmetic_circuit
 run -all
-wave create -pattern constant -value 010 -range 2 0 -starttime 0ps -endtime 1000ps sim:/arithmetic_circuit/INS
-# /arithmetic_circuit/INS already exists in the wave, cannot add twice
-# Usage: wave create -pattern <clock|constant|random|repeater|counter|none> <args>
-# See Command Reference manual for pattern specific <args>
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 1000ps Edit:/arithmetic_circuit/C_in
 run -all
-# End time: 12:59:50 on Sep 21,2018, Elapsed time: 0:06:20
-# Errors: 8, Warnings: 0
+wave modify -driver freeze -pattern constant -value 01 -range 1 0 -starttime 0ps -endtime 1000ps Edit:/arithmetic_circuit/S
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 1000ps Edit:/arithmetic_circuit/C_in
+run -all
+# End time: 08:21:35 on Sep 28,2018, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 0

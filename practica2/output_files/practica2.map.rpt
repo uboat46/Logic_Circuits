@@ -1,5 +1,5 @@
 Analysis & Synthesis report for practica2
-Fri Sep 21 12:52:59 2018
+Fri Sep 28 08:59:48 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -13,17 +13,13 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Parameter Settings for User Entity Instance: practica2:b2v_inst_practica2|div_freq:inst2
- 12. Parameter Settings for User Entity Instance: binary_to_bcd:stbin
- 13. Port Connectivity Checks: "binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:4:digit_0"
- 14. Port Connectivity Checks: "binary_to_bcd:stbin"
- 15. Port Connectivity Checks: "arithmetic_circuit:b2v_instac"
- 16. Post-Synthesis Netlist Statistics for Top Partition
- 17. Elapsed Time Per Partition
- 18. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Parameter Settings for User Entity Instance: practica2:b2v_inst_practica2|div_freq:inst2
+ 11. Port Connectivity Checks: "arithmetic_circuit:b2v_instac"
+ 12. Post-Synthesis Netlist Statistics for Top Partition
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
 
 
 
@@ -50,15 +46,15 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Sep 21 12:52:59 2018       ;
+; Analysis & Synthesis Status        ; Successful - Fri Sep 28 08:59:48 2018       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; practica2                                   ;
 ; Top-level Entity Name              ; practica3                                   ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 210                                         ;
-;     Total combinational functions  ; 193                                         ;
-;     Dedicated logic registers      ; 77                                          ;
-; Total registers                    ; 77                                          ;
+; Total logic elements               ; 157                                         ;
+;     Total combinational functions  ; 157                                         ;
+;     Dedicated logic registers      ; 20                                          ;
+; Total registers                    ; 20                                          ;
 ; Total pins                         ; 35                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -170,22 +166,20 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                        ;
-+----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                              ; Library ;
-+----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------+---------+
-; decoder_2_to_4.vhd               ; yes             ; User VHDL File                     ; /home/robotica/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd      ;         ;
-; cont2.vhd                        ; yes             ; User VHDL File                     ; /home/robotica/Documents/Logic_Circuits/practica2/cont2.vhd               ;         ;
-; div_freq.vhd                     ; yes             ; User VHDL File                     ; /home/robotica/Documents/Logic_Circuits/practica2/div_freq.vhd            ;         ;
-; practica2.bdf                    ; yes             ; User Block Diagram/Schematic File  ; /home/robotica/Documents/Logic_Circuits/practica2/practica2.bdf           ;         ;
-; mux_4_to_1.vhd                   ; yes             ; User VHDL File                     ; /home/robotica/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd          ;         ;
-; bcd_to_7_segment.vhd             ; yes             ; User VHDL File                     ; /home/robotica/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd    ;         ;
-; practica3.vhd                    ; yes             ; User VHDL File                     ; /home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd           ;         ;
-; arithmetic_circuit.vhd           ; yes             ; User VHDL File                     ; /home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd  ;         ;
-; binary_to_bcd.vhd                ; yes             ; User VHDL File                     ; /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd       ;         ;
-; binary_to_bcd_digit.vhd          ; yes             ; User VHDL File                     ; /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd ;         ;
-+----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                         ; Library ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------+---------+
+; decoder_2_to_4.vhd               ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd     ;         ;
+; cont2.vhd                        ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd              ;         ;
+; div_freq.vhd                     ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd           ;         ;
+; practica2.bdf                    ; yes             ; User Block Diagram/Schematic File  ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica2.bdf          ;         ;
+; mux_4_to_1.vhd                   ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd         ;         ;
+; bcd_to_7_segment.vhd             ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd   ;         ;
+; practica3.vhd                    ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd          ;         ;
+; arithmetic_circuit.vhd           ; yes             ; User VHDL File                     ; /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd ;         ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -193,20 +187,20 @@ agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 210       ;
+; Estimated Total logic elements              ; 157       ;
 ;                                             ;           ;
-; Total combinational functions               ; 193       ;
+; Total combinational functions               ; 157       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 76        ;
-;     -- 3 input functions                    ; 47        ;
-;     -- <=2 input functions                  ; 70        ;
+;     -- 4 input functions                    ; 59        ;
+;     -- 3 input functions                    ; 40        ;
+;     -- <=2 input functions                  ; 58        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 122       ;
-;     -- arithmetic mode                      ; 71        ;
+;     -- normal mode                          ; 90        ;
+;     -- arithmetic mode                      ; 67        ;
 ;                                             ;           ;
-; Total registers                             ; 77        ;
-;     -- Dedicated logic registers            ; 77        ;
+; Total registers                             ; 20        ;
+;     -- Dedicated logic registers            ; 20        ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 35        ;
@@ -214,44 +208,27 @@ agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 75        ;
-; Total fan-out                               ; 855       ;
-; Average fan-out                             ; 2.51      ;
+; Maximum fan-out                             ; 18        ;
+; Total fan-out                               ; 546       ;
+; Average fan-out                             ; 2.21      ;
 +---------------------------------------------+-----------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                          ;
-+---------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node                        ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                      ; Entity Name         ; Library Name ;
-+---------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------+---------------------+--------------+
-; |practica3                                        ; 193 (0)             ; 77 (0)                    ; 0           ; 0            ; 0       ; 0         ; 35   ; 0            ; |practica3                                                               ; practica3           ; work         ;
-;    |arithmetic_circuit:b2v_instac|                ; 62 (62)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|arithmetic_circuit:b2v_instac                                 ; arithmetic_circuit  ; work         ;
-;    |binary_to_bcd:stbin|                          ; 80 (61)             ; 57 (40)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|binary_to_bcd:stbin                                           ; binary_to_bcd       ; work         ;
-;       |binary_to_bcd_digit:\bcd_digits:1:digit_0| ; 5 (5)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:1:digit_0 ; binary_to_bcd_digit ; work         ;
-;       |binary_to_bcd_digit:\bcd_digits:2:digit_0| ; 5 (5)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:2:digit_0 ; binary_to_bcd_digit ; work         ;
-;       |binary_to_bcd_digit:\bcd_digits:3:digit_0| ; 5 (5)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:3:digit_0 ; binary_to_bcd_digit ; work         ;
-;       |binary_to_bcd_digit:\bcd_digits:4:digit_0| ; 4 (4)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:4:digit_0 ; binary_to_bcd_digit ; work         ;
-;    |practica2:b2v_inst_practica2|                 ; 51 (0)              ; 20 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2                                  ; practica2           ; work         ;
-;       |bcd_to_7_segment:inst5|                    ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|bcd_to_7_segment:inst5           ; bcd_to_7_segment    ; work         ;
-;       |cont2:inst3|                               ; 2 (2)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|cont2:inst3                      ; cont2               ; work         ;
-;       |decoder_2_to_4:inst4|                      ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|decoder_2_to_4:inst4             ; decoder_2_to_4      ; work         ;
-;       |div_freq:inst2|                            ; 30 (30)             ; 18 (18)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|div_freq:inst2                   ; div_freq            ; work         ;
-;       |mux_4_to_1:inst|                           ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|mux_4_to_1:inst                  ; mux_4_to_1          ; work         ;
-+---------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------+---------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                ;
++------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------------+--------------+
+; Compilation Hierarchy Node         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                            ; Entity Name        ; Library Name ;
++------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------------+--------------+
+; |practica3                         ; 157 (0)             ; 20 (0)                    ; 0           ; 0            ; 0       ; 0         ; 35   ; 0            ; |practica3                                                     ; practica3          ; work         ;
+;    |arithmetic_circuit:b2v_instac| ; 75 (75)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|arithmetic_circuit:b2v_instac                       ; arithmetic_circuit ; work         ;
+;    |practica2:b2v_inst_practica2|  ; 82 (0)              ; 20 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2                        ; practica2          ; work         ;
+;       |bcd_to_7_segment:inst5|     ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|bcd_to_7_segment:inst5 ; bcd_to_7_segment   ; work         ;
+;       |cont2:inst3|                ; 2 (2)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|cont2:inst3            ; cont2              ; work         ;
+;       |decoder_2_to_4:inst4|       ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|decoder_2_to_4:inst4   ; decoder_2_to_4     ; work         ;
+;       |div_freq:inst2|             ; 30 (30)             ; 18 (18)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|div_freq:inst2         ; div_freq           ; work         ;
+;       |mux_4_to_1:inst|            ; 35 (35)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |practica3|practica2:b2v_inst_practica2|mux_4_to_1:inst        ; mux_4_to_1         ; work         ;
++------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                                          ;
-+------------------------------------------------------------------------+------------------------------------------------------------------------------------+
-; Register name                                                          ; Reason for Removal                                                                 ;
-+------------------------------------------------------------------------+------------------------------------------------------------------------------------+
-; binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:1:digit_0|prev_ena ; Merged with binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:4:digit_0|prev_ena ;
-; binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:2:digit_0|prev_ena ; Merged with binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:4:digit_0|prev_ena ;
-; binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:3:digit_0|prev_ena ; Merged with binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:4:digit_0|prev_ena ;
-; Total Number of Removed Registers = 3                                  ;                                                                                    ;
-+------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -259,30 +236,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 77    ;
-; Number of registers using Synchronous Clear  ; 18    ;
-; Number of registers using Synchronous Load   ; 8     ;
+; Total registers                              ; 20    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 52    ;
+; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                      ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
-; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |practica3|binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:1:digit_0|bcd[2] ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |practica3|binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:2:digit_0|bcd[3] ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |practica3|binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:3:digit_0|bcd[3] ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |practica3|binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:4:digit_0|bcd[3] ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |practica3|binary_to_bcd:stbin|bit_count[0]                                     ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |practica3|binary_to_bcd:stbin|binary_reg[12]                                   ;
-; 10:1               ; 7 bits    ; 42 LEs        ; 35 LEs               ; 7 LEs                  ; Yes        ; |practica3|binary_to_bcd:stbin|binary_reg[2]                                    ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |practica3|practica2:b2v_inst_practica2|mux_4_to_1:inst|Mux3                    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------+
+; 17:1               ; 3 bits    ; 33 LEs        ; 30 LEs               ; 3 LEs                  ; No         ; |practica3|practica2:b2v_inst_practica2|mux_4_to_1:inst|Mux0 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------+
@@ -293,37 +263,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; div            ; 100000 ; Signed Integer                                                 ;
 +----------------+--------+----------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: binary_to_bcd:stbin ;
-+----------------+-------+-----------------------------------------+
-; Parameter Name ; Value ; Type                                    ;
-+----------------+-------+-----------------------------------------+
-; bits           ; 16    ; Signed Integer                          ;
-; digits         ; 4     ; Signed Integer                          ;
-+----------------+-------+-----------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:4:digit_0"                       ;
-+-------+--------+----------+-------------------------------------------------------------------------------------+
-; Port  ; Type   ; Severity ; Details                                                                             ;
-+-------+--------+----------+-------------------------------------------------------------------------------------+
-; c_out ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "binary_to_bcd:stbin"                                                                   ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; Port    ; Type   ; Severity ; Details                                                                             ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; reset_n ; Input  ; Info     ; Stuck at VCC                                                                        ;
-; ena     ; Input  ; Info     ; Stuck at VCC                                                                        ;
-; busy    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------+
@@ -342,26 +281,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 35                          ;
-; cycloneiii_ff         ; 77                          ;
-;     ENA               ; 27                          ;
-;     ENA SCLR          ; 18                          ;
-;     ENA SLD           ; 7                           ;
-;     SLD               ; 1                           ;
-;     plain             ; 24                          ;
-; cycloneiii_lcell_comb ; 195                         ;
-;     arith             ; 71                          ;
+; cycloneiii_ff         ; 20                          ;
+;     plain             ; 20                          ;
+; cycloneiii_lcell_comb ; 159                         ;
+;     arith             ; 67                          ;
 ;         1 data inputs ; 3                           ;
-;         2 data inputs ; 44                          ;
+;         2 data inputs ; 40                          ;
 ;         3 data inputs ; 24                          ;
-;     normal            ; 124                         ;
-;         0 data inputs ; 6                           ;
-;         1 data inputs ; 6                           ;
-;         2 data inputs ; 13                          ;
-;         3 data inputs ; 23                          ;
-;         4 data inputs ; 76                          ;
+;     normal            ; 92                          ;
+;         0 data inputs ; 5                           ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 7                           ;
+;         3 data inputs ; 16                          ;
+;         4 data inputs ; 59                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 6.80                        ;
-; Average LUT depth     ; 3.80                        ;
+; Max LUT depth         ; 9.40                        ;
+; Average LUT depth     ; 6.96                        ;
 +-----------------------+-----------------------------+
 
 
@@ -380,64 +315,58 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Sep 21 12:52:40 2018
+    Info: Processing started: Fri Sep 28 08:59:30 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off practica2 -c practica2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file decoder_2_to_4.vhd
-    Info (12022): Found design unit 1: decoder_2_to_4-function_table File: /home/robotica/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd Line: 16
-    Info (12023): Found entity 1: decoder_2_to_4 File: /home/robotica/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd Line: 6
+    Info (12022): Found design unit 1: decoder_2_to_4-function_table File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd Line: 16
+    Info (12023): Found entity 1: decoder_2_to_4 File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/decoder_2_to_4.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file cont2.vhd
-    Info (12022): Found design unit 1: cont2-Behavioral File: /home/robotica/Documents/Logic_Circuits/practica2/cont2.vhd Line: 14
-    Info (12023): Found entity 1: cont2 File: /home/robotica/Documents/Logic_Circuits/practica2/cont2.vhd Line: 6
+    Info (12022): Found design unit 1: cont2-Behavioral File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd Line: 14
+    Info (12023): Found entity 1: cont2 File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/cont2.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file div_freq.vhd
-    Info (12022): Found design unit 1: div_freq-Behavioral File: /home/robotica/Documents/Logic_Circuits/practica2/div_freq.vhd Line: 13
-    Info (12023): Found entity 1: div_freq File: /home/robotica/Documents/Logic_Circuits/practica2/div_freq.vhd Line: 4
+    Info (12022): Found design unit 1: div_freq-Behavioral File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd Line: 13
+    Info (12023): Found entity 1: div_freq File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/div_freq.vhd Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file practica2.bdf
     Info (12023): Found entity 1: practica2
 Info (12021): Found 2 design units, including 1 entities, in source file mux_4_to_1.vhd
-    Info (12022): Found design unit 1: mux_4_to_1-function_table File: /home/robotica/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd Line: 17
-    Info (12023): Found entity 1: mux_4_to_1 File: /home/robotica/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd Line: 6
+    Info (12022): Found design unit 1: mux_4_to_1-function_table File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd Line: 17
+    Info (12023): Found entity 1: mux_4_to_1 File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/mux_4_to_1.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file bcd_to_7_segment.vhd
-    Info (12022): Found design unit 1: bcd_to_7_segment-led_table File: /home/robotica/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd Line: 19
-    Info (12023): Found entity 1: bcd_to_7_segment File: /home/robotica/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd Line: 6
+    Info (12022): Found design unit 1: bcd_to_7_segment-led_table File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd Line: 19
+    Info (12023): Found entity 1: bcd_to_7_segment File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/bcd_to_7_segment.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file practica3.vhd
-    Info (12022): Found design unit 1: practica3-bdf_type File: /home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd Line: 25
-    Info (12023): Found entity 1: practica3 File: /home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd Line: 7
+    Info (12022): Found design unit 1: practica3-bdf_type File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd Line: 25
+    Info (12023): Found entity 1: practica3 File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file arithmetic_circuit.vhd
-    Info (12022): Found design unit 1: arithmetic_circuit-table File: /home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd Line: 17
-    Info (12023): Found entity 1: arithmetic_circuit File: /home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd Line: 6
+    Info (12022): Found design unit 1: arithmetic_circuit-table File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd Line: 17
+    Info (12023): Found entity 1: arithmetic_circuit File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file binary_to_bcd.vhd
-    Info (12022): Found design unit 1: binary_to_bcd-logic File: /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd Line: 43
-    Info (12023): Found entity 1: binary_to_bcd File: /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd Line: 30
+    Info (12022): Found design unit 1: binary_to_bcd-logic File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd Line: 43
+    Info (12023): Found entity 1: binary_to_bcd File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd Line: 30
 Info (12021): Found 2 design units, including 1 entities, in source file binary_to_bcd_digit.vhd
-    Info (12022): Found design unit 1: binary_to_bcd_digit-logic File: /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd Line: 36
-    Info (12023): Found entity 1: binary_to_bcd_digit File: /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd Line: 26
+    Info (12022): Found design unit 1: binary_to_bcd_digit-logic File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd Line: 36
+    Info (12023): Found entity 1: binary_to_bcd_digit File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/binary_to_bcd_digit.vhd Line: 26
 Info (12127): Elaborating entity "practica3" for the top level hierarchy
-Info (12128): Elaborating entity "practica2" for hierarchy "practica2:b2v_inst_practica2" File: /home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd Line: 75
+Info (12128): Elaborating entity "practica2" for hierarchy "practica2:b2v_inst_practica2" File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd Line: 62
 Info (12128): Elaborating entity "decoder_2_to_4" for hierarchy "practica2:b2v_inst_practica2|decoder_2_to_4:inst4"
 Info (12128): Elaborating entity "cont2" for hierarchy "practica2:b2v_inst_practica2|cont2:inst3"
 Info (12128): Elaborating entity "div_freq" for hierarchy "practica2:b2v_inst_practica2|div_freq:inst2"
 Info (12128): Elaborating entity "bcd_to_7_segment" for hierarchy "practica2:b2v_inst_practica2|bcd_to_7_segment:inst5"
 Info (12128): Elaborating entity "mux_4_to_1" for hierarchy "practica2:b2v_inst_practica2|mux_4_to_1:inst"
-Info (12128): Elaborating entity "arithmetic_circuit" for hierarchy "arithmetic_circuit:b2v_instac" File: /home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd Line: 90
-Warning (10541): VHDL Signal Declaration warning at arithmetic_circuit.vhd(12): used implicit default value for signal "C_out" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd Line: 12
-Warning (10540): VHDL Signal Declaration warning at arithmetic_circuit.vhd(18): used explicit default value for signal "INS" because signal was never assigned a value File: /home/robotica/Documents/Logic_Circuits/practica2/arithmetic_circuit.vhd Line: 18
-Info (12128): Elaborating entity "binary_to_bcd" for hierarchy "binary_to_bcd:stbin" File: /home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd Line: 100
-Info (12128): Elaborating entity "binary_to_bcd_digit" for hierarchy "binary_to_bcd:stbin|binary_to_bcd_digit:\bcd_digits:1:digit_0" File: /home/robotica/Documents/Logic_Circuits/practica2/binary_to_bcd.vhd Line: 108
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "C_out" is stuck at GND File: /home/robotica/Documents/Logic_Circuits/practica2/practica3.vhd Line: 19
+Info (12128): Elaborating entity "arithmetic_circuit" for hierarchy "arithmetic_circuit:b2v_instac" File: /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica2/practica3.vhd Line: 77
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 245 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 192 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 20 input pins
     Info (21059): Implemented 15 output pins
-    Info (21061): Implemented 210 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 967 megabytes
-    Info: Processing ended: Fri Sep 21 12:52:59 2018
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:43
+    Info (21061): Implemented 157 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 974 megabytes
+    Info: Processing ended: Fri Sep 28 08:59:48 2018
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:42
 
 
