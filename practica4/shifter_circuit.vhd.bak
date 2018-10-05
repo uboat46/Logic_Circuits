@@ -1,0 +1,21 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity	shifter_circuit  is
+	port(
+		S   	 : IN  STD_LOGIC_VECTOR (1 DOWNTO 0);
+		B      : IN  STD_LOGIC_VECTOR (15  DOWNTO  0);
+		G      : OUT  STD_LOGIC_VECTOR (15  DOWNTO  0)
+	);
+end shifter_circuit;
+
+architecture table	of  shifter_circuit  is
+	BEGIN
+		with S select 
+				G <= B when "00",
+						  (SHIFT_RIGHT(B)) when "01",
+						  (SHIFT_LEFT(B)) when "10",
+						  "XXXXXXXXXXXXXXXX" when others;
+end table;

@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.576
+TNS   : -22.258
+
+Type  : Slow 1200mV 85C Model Setup 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.555
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -21.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -2.251
+TNS   : -17.832
+
+Type  : Slow 1200mV 0C Model Setup 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -21.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.049
+TNS   : -5.211
+
+Type  : Fast 1200mV 0C Model Setup 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.543
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -21.972
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : -1.000
+TNS   : -2.000
+
+------------------------------------------------------------
