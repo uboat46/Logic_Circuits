@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity	par_impar_ex3  is
+	port(
+		A: in std_logic_vector (3 downto 0);
+		B: in std_logic_vector (3 downto 0;
+		R: out std_logic_vector (3 downto 0);
+		C:	out std_logic
+	);
+end par_impar_ex3;
+
+architecture  function_table  of  par_impar_ex3  is
+		begin
+			R <= A + B;
+			C <= R(0);
+		
+end  function_table;

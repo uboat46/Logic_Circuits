@@ -8,29 +8,437 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/simulation/modelsim
-Ezero_detect
-Z1 w1538747105
+Earithmetic_circuit
+Z1 w1538742508
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z6 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/zero_detect.vhd
-Z7 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/zero_detect.vhd
+Z6 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/arithmetic_circuit.vhd
+Z7 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/arithmetic_circuit.vhd
+l0
+L6
+V?zKkR7cn88Q@al3^Jhao32
+!s100 mc1f^_6MbPhPfDW=zJi1i1
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1539347730
+!i10b 1
+Z10 !s108 1539347730.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/arithmetic_circuit.vhd|
+Z12 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/arithmetic_circuit.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Atable
+R2
+R3
+R4
+R5
+DEx4 work 18 arithmetic_circuit 0 22 ?zKkR7cn88Q@al3^Jhao32
+l22
+L17
+V[<f5f>_lA?H@4Sad7ZZWj2
+!s100 8bOQhUVfOHoRD[I8d:70d0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ebcd_to_7_segment
+R1
+R2
+R3
+R4
+R5
+R0
+Z15 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/bcd_to_7_segment.vhd
+Z16 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/bcd_to_7_segment.vhd
+l0
+L6
+VzM[WDg8:J>I=Nc>OK_Xic3
+!s100 CO`lg462BGchC94g?4ZOE0
+R8
+31
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/bcd_to_7_segment.vhd|
+Z18 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/bcd_to_7_segment.vhd|
+!i113 1
+R13
+R14
+Aled_table
+R2
+R3
+R4
+R5
+DEx4 work 16 bcd_to_7_segment 0 22 zM[WDg8:J>I=Nc>OK_Xic3
+l20
+L19
+VHj8eJB7<;>6CPbcLY5jZc1
+!s100 dJY201aN1Z7S25i]2e2aT2
+R8
+31
+R9
+!i10b 1
+R10
+R17
+R18
+!i113 1
+R13
+R14
+Econt2
+R1
+R2
+R3
+R4
+R5
+R0
+Z19 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/cont2.vhd
+Z20 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/cont2.vhd
+l0
+L6
+Va:;n5UmKP_LBbegl66:l43
+!s100 CADWf5OC>Kz6Ld4m:391@3
+R8
+31
+R9
+!i10b 1
+R10
+Z21 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/cont2.vhd|
+Z22 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/cont2.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 5 cont2 0 22 a:;n5UmKP_LBbegl66:l43
+l16
+L14
+V976RXKLZoU2ne@77>_[C=1
+!s100 YU3=`M;J8[7DPCeXjUen20
+R8
+31
+R9
+!i10b 1
+R10
+R21
+R22
+!i113 1
+R13
+R14
+Edecoder_2_to_4
+R1
+R2
+R3
+R4
+R5
+R0
+Z23 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/decoder_2_to_4.vhd
+Z24 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/decoder_2_to_4.vhd
+l0
+L6
+VADU64=aY`D;F<XUT=jPS=0
+!s100 H<aYQ=:^AkU[dIc`NHSFj2
+R8
+31
+R9
+!i10b 1
+Z25 !s108 1539347729.000000
+Z26 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/decoder_2_to_4.vhd|
+Z27 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/decoder_2_to_4.vhd|
+!i113 1
+R13
+R14
+Afunction_table
+R2
+R3
+R4
+R5
+DEx4 work 14 decoder_2_to_4 0 22 ADU64=aY`D;F<XUT=jPS=0
+l17
+L16
+Vf8H:2JW3>bTjP:Rg`HoNo3
+!s100 Z_L4I>mGVlfg0azEMJABA2
+R8
+31
+R9
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R13
+R14
+Ediv_freq
+R1
+R4
+R5
+R0
+Z28 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/div_freq.vhd
+Z29 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/div_freq.vhd
+l0
+L4
+V4Q[d_I[`=7=;<CQUFB@252
+!s100 fkTThV=AA2e88ad9anUoP3
+R8
+31
+R9
+!i10b 1
+R10
+Z30 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/div_freq.vhd|
+Z31 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/div_freq.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+DEx4 work 8 div_freq 0 22 4Q[d_I[`=7=;<CQUFB@252
+l16
+L13
+V=dabZ?le3^MizT7TNdJ>l3
+!s100 NRKdXG:H@Aah2BDz_kE3L2
+R8
+31
+R9
+!i10b 1
+R10
+R30
+R31
+!i113 1
+R13
+R14
+Elogic_circuit
+Z32 w1538743256
+R2
+R3
+R4
+R5
+R0
+Z33 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/logic_circuit.vhd
+Z34 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/logic_circuit.vhd
+l0
+L6
+VXTZE9IJ_fZd6VXLYK2CG61
+!s100 dJoJkm8ij5T1LO@=W=_bP2
+R8
+31
+R9
+!i10b 1
+R10
+Z35 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/logic_circuit.vhd|
+Z36 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/logic_circuit.vhd|
+!i113 1
+R13
+R14
+Atable
+R2
+R3
+R4
+R5
+DEx4 work 13 logic_circuit 0 22 XTZE9IJ_fZd6VXLYK2CG61
+l16
+L15
+VCKP>ozZN`1BL2YgZN95_G0
+!s100 K<3T0WZTE8EzgKk[WGFX:2
+R8
+31
+R9
+!i10b 1
+R10
+R35
+R36
+!i113 1
+R13
+R14
+Emux_2_to_1
+Z37 w1538746779
+R2
+R3
+R4
+R5
+R0
+Z38 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/mux_2_to_1.vhd
+Z39 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/mux_2_to_1.vhd
+l0
+L6
+VA;H[mm^JPgdTQ=6T7L2C10
+!s100 ;D>=[T:nJfHO=79oVUR371
+R8
+31
+R9
+!i10b 1
+R10
+Z40 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/mux_2_to_1.vhd|
+Z41 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/mux_2_to_1.vhd|
+!i113 1
+R13
+R14
+Afunction_table
+R2
+R3
+R4
+R5
+DEx4 work 10 mux_2_to_1 0 22 A;H[mm^JPgdTQ=6T7L2C10
+l16
+L15
+V7LL@CB<Q_=f6MJb:JBi4I3
+!s100 5VK0d[glz?AL1:M8RHUQ`3
+R8
+31
+R9
+!i10b 1
+R10
+R40
+R41
+!i113 1
+R13
+R14
+Emux_4_to_1
+R1
+R2
+R3
+R4
+R5
+R0
+Z42 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/mux_4_to_1.vhd
+Z43 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/mux_4_to_1.vhd
+l0
+L6
+VK<n:[cKKYKBeE221B68GY1
+!s100 SY<ma9VD?gkLHJBL4cHD91
+R8
+31
+R9
+!i10b 1
+R10
+Z44 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/mux_4_to_1.vhd|
+Z45 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/mux_4_to_1.vhd|
+!i113 1
+R13
+R14
+Afunction_table
+R2
+R3
+R4
+R5
+DEx4 work 10 mux_4_to_1 0 22 K<n:[cKKYKBeE221B68GY1
+l18
+L17
+VjQIiT_@DUjOci1mDW<8QA1
+!s100 ]E1_80=22ccEc9`;_zLYI2
+R8
+31
+R9
+!i10b 1
+R10
+R44
+R45
+!i113 1
+R13
+R14
+Epractica4
+w1538751499
+R2
+R3
+R4
+R5
+R0
+8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/practica4.vhd
+F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/practica4.vhd
+l0
+L7
+V0[2QHGF^S2322l4``iW<P3
+!s100 Z^5YKC7EjTffTB0hL4A0g2
+R8
+31
+!s110 1539347731
+!i10b 1
+R10
+!s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/practica4.vhd|
+!s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/practica4.vhd|
+!i113 1
+R13
+R14
+Eshifter_circuit
+Z46 w1538746388
+Z47 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R4
+R5
+R0
+Z48 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/shifter_circuit.vhd
+Z49 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/shifter_circuit.vhd
+l0
+L7
+VoYWQ:b<l^z9W]S32;^2jz0
+!s100 F5ZkUFZKjZ2kCC58`dhU?3
+R8
+31
+R9
+!i10b 1
+R10
+Z50 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/shifter_circuit.vhd|
+Z51 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/shifter_circuit.vhd|
+!i113 1
+R13
+R14
+Atable
+R47
+R2
+R3
+R4
+R5
+DEx4 work 15 shifter_circuit 0 22 oYWQ:b<l^z9W]S32;^2jz0
+l17
+L15
+VYC04;8NCWOfTL4fB7GYzD0
+!s100 RYoj`lJSFcS`5XMCASdRO3
+R8
+31
+R9
+!i10b 1
+R10
+R50
+R51
+!i113 1
+R13
+R14
+Ezero_detect
+Z52 w1538747105
+R2
+R3
+R4
+R5
+R0
+Z53 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/zero_detect.vhd
+Z54 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/zero_detect.vhd
 l0
 L6
 V[EUU=]`gb40385Sm?aIJR3
 !s100 PL3hh6c=^<AH<`G6`7bK`3
-Z8 OV;C;10.5b;63
+R8
 31
-Z9 !s110 1538747146
+R9
 !i10b 1
-Z10 !s108 1538747146.000000
-Z11 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/zero_detect.vhd|
-Z12 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/zero_detect.vhd|
+R10
+Z55 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/zero_detect.vhd|
+Z56 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica4/zero_detect.vhd|
 !i113 1
-Z13 o-93 -work work
-Z14 tExplicit 1 CvgOpt 0
+R13
+R14
 Afunction_table
 R2
 R3
@@ -46,8 +454,8 @@ R8
 R9
 !i10b 1
 R10
-R11
-R12
+R55
+R56
 !i113 1
 R13
 R14
