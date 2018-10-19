@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "act_dis1",
+					"strict" : false
+				},
+				{
+					"name" : "act_dis2",
+					"strict" : false
+				},
+				{
+					"name" : "act_dis4",
+					"strict" : false
+				},
+				{
+					"name" : "act_dis3",
+					"strict" : false
+				},
+				{
+					"name" : "C_out",
+					"strict" : false
+				},
+				{
+					"name" : "N",
+					"strict" : false
+				},
+				{
+					"name" : "Z",
+					"strict" : false
+				},
+				{
+					"name" : "display[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MB",
+					"strict" : false
+				},
+				{
+					"name" : "BA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "R",
+					"strict" : false
+				},
+				{
+					"name" : "MD",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "DA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RW",
+					"strict" : false
+				},
+				{
+					"name" : "DA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DA[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
