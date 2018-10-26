@@ -97,7 +97,6 @@ ARCHITECTURE bdf_type OF practica5 IS
 		WORD(9 DOWNTO 7) <= BA;
 		WORD(12 DOWNTO 10) <= AA;
 		WORD(15 DOWNTO 13) <= DA;
-		RN <= NOT(R);
 		
 		
 		b2v_inst_practica4 : practica4

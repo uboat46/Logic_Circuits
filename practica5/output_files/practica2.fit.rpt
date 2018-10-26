@@ -1,5 +1,5 @@
 Fitter report for practica2
-Fri Oct 19 10:03:30 2018
+Fri Oct 26 07:39:17 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -68,7 +68,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Oct 19 10:03:30 2018       ;
+; Fitter Status                      ; Successful - Fri Oct 26 07:39:17 2018       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; practica2                                   ;
 ; Top-level Entity Name              ; practica5                                   ;
@@ -160,7 +160,7 @@ agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.3%      ;
+;     Processor 2            ;   2.2%      ;
 +----------------------------+-------------+
 
 
@@ -1727,7 +1727,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.33 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.32 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1736,7 +1736,7 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica5/output_files/practica2.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 1187 megabytes
-    Info: Processing ended: Fri Oct 19 10:03:30 2018
+    Info: Processing ended: Fri Oct 26 07:39:17 2018
     Info: Elapsed time: 00:00:11
     Info: Total CPU time (on all processors): 00:00:13
 

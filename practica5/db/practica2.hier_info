@@ -19,20 +19,20 @@ BA[2] => registry_file:b2v_inst_registry_file.BA[2]
 DA[0] => registry_file:b2v_inst_registry_file.DA[0]
 DA[1] => registry_file:b2v_inst_registry_file.DA[1]
 DA[2] => registry_file:b2v_inst_registry_file.DA[2]
-act_dis1 <= practica2:b2v_inst_practica2.led_1
-act_dis2 <= practica2:b2v_inst_practica2.led_2
-act_dis4 <= practica2:b2v_inst_practica2.led_4
-act_dis3 <= practica2:b2v_inst_practica2.led_3
-C_out <= practica4:b2v_inst_practica4.C_out
-N <= practica4:b2v_inst_practica4.N
-Z <= practica4:b2v_inst_practica4.Z
-display[0] <= practica2:b2v_inst_practica2.bcd_to_7[0]
-display[1] <= practica2:b2v_inst_practica2.bcd_to_7[1]
-display[2] <= practica2:b2v_inst_practica2.bcd_to_7[2]
-display[3] <= practica2:b2v_inst_practica2.bcd_to_7[3]
-display[4] <= practica2:b2v_inst_practica2.bcd_to_7[4]
-display[5] <= practica2:b2v_inst_practica2.bcd_to_7[5]
-display[6] <= practica2:b2v_inst_practica2.bcd_to_7[6]
+act_dis1 << practica2:b2v_inst_practica2.led_1
+act_dis2 << practica2:b2v_inst_practica2.led_2
+act_dis4 << practica2:b2v_inst_practica2.led_4
+act_dis3 << practica2:b2v_inst_practica2.led_3
+C_out << practica4:b2v_inst_practica4.C_out
+N << practica4:b2v_inst_practica4.N
+Z << practica4:b2v_inst_practica4.Z
+display[0] << practica2:b2v_inst_practica2.bcd_to_7[0]
+display[1] << practica2:b2v_inst_practica2.bcd_to_7[1]
+display[2] << practica2:b2v_inst_practica2.bcd_to_7[2]
+display[3] << practica2:b2v_inst_practica2.bcd_to_7[3]
+display[4] << practica2:b2v_inst_practica2.bcd_to_7[4]
+display[5] << practica2:b2v_inst_practica2.bcd_to_7[5]
+display[6] << practica2:b2v_inst_practica2.bcd_to_7[6]
 
 
 |practica5|practica4:b2v_inst_practica4
