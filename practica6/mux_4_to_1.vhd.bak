@@ -1,0 +1,21 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity	mux_4_to_1  is
+	port(
+		S: in  std_logic_vector (1 downto 0);
+		I0: in std_logic_vector (3 downto 0);
+		I1: in std_logic_vector (3 downto 0);
+		I2: in std_logic_vector (3 downto 0);
+		I3: in std_logic_vector (3 downto 0);
+		Y:	out std_logic_vector
+	);
+end mux_4_to_1;
+
+architecture  function_table  of  mux_4_to_1  is
+	begin
+		Y <= (NOT(S(1)) AND NOT(S(0)) AND I0) OR (NOT(S(1)) AND S(0) AND I1)
+				OR (S(1) AND NOT(S(0)) AND I2) OR (S(1) AND S(0) AND I3)
+end  function_table;

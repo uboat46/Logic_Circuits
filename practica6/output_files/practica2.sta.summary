@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.689
+TNS   : -23.048
+
+Type  : Slow 1200mV 85C Model Setup 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.556
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2069.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -2.362
+TNS   : -18.678
+
+Type  : Slow 1200mV 0C Model Setup 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2069.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.107
+TNS   : -5.771
+
+Type  : Fast 1200mV 0C Model Setup 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.510
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2186.735
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'practica2:b2v_inst_practica2|div_freq:inst2|temporal'
+Slack : -1.000
+TNS   : -2.000
+
+------------------------------------------------------------

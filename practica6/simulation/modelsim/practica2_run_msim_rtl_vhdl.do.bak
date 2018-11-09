@@ -1,0 +1,21 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/decoder_2_to_4.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/cont2.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/div_freq.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/mux_4_to_1.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/bcd_to_7_segment.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/arithmetic_circuit.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/logic_circuit.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/shifter_circuit.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/mux_2_to_1.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/zero_detect.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/practica4.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/registry_file.vhd}
+vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica6/practica5.vhd}
+
