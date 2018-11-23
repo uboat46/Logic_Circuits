@@ -12,6 +12,11 @@ ENTITY  practica_final  IS
 		DIPA     :   IN    STD_LOGIC_VECTOR (7  DOWNTO  0);
 		DIPB     :   IN    STD_LOGIC_VECTOR (7  DOWNTO  0);
 		DIPT     :   IN    STD_LOGIC_VECTOR (2  DOWNTO 0);
+		act_dis1 :   OUT   STD_LOGIC;
+		act_dis2 :   OUT   STD_LOGIC;
+		act_dis4 :   OUT   STD_LOGIC;
+		act_dis3 :   OUT   STD_LOGIC;
+		display  :   OUT   STD_LOGIC_VECTOR (6  DOWNTO  0)
 	);
 END  practica_final;
 
@@ -155,29 +160,33 @@ ARCHITECTURE bdf_type OF practica_final IS
 	SIGNAL BTR : STD_LOGIC:= NOT(BTN_R);
 	
 	
-	SIGNAL OPO : STD_LOGIC_VECTOR(1 DOWNTO 0);
-	SIGNAL DAO : STD_LOGIC_VECTOR(2 DOWNTO 0);
-	SIGNAL AAO : STD_LOGIC_VECTOR(2 DOWNTO 0);
-	SIGNAL BAO : STD_LOGIC_VECTOR(2 DOWNTO 0);
-	SIGNAL FSO : STD_LOGIC_VECTOR(3 DOWNTO 0);
-	SIGNAL IRO : STD_LOGIC_VECTOR(15 DOWNTO 0);
-	SIGNAL ADO : STD_LOGIC_VECTOR(15 DOWNTO 0);
-	SIGNAL ADOO: STD_LOGIC_VECTOR(15 DOWNTO 0);
-	SIGNAL IO  : STD_LOGIC_VECTOR(15 DOWNTO 0);
-	SIGNAL ZFO : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL OPO   : STD_LOGIC_VECTOR(1 DOWNTO 0);
+	SIGNAL DAO   : STD_LOGIC_VECTOR(2 DOWNTO 0);
+	SIGNAL AAO   : STD_LOGIC_VECTOR(2 DOWNTO 0);
+	SIGNAL BAO   : STD_LOGIC_VECTOR(2 DOWNTO 0);
+	SIGNAL FSO   : STD_LOGIC_VECTOR(3 DOWNTO 0);
+	SIGNAL IRO   : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL ADO   : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL ADOO  : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL IO    : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL ZFO   : STD_LOGIC_VECTOR(15 DOWNTO 0);
 	SIGNAL MUXDO : STD_LOGIC_VECTOR(15 DOWNTO 0);
-	SIGNAL MBO : STD_LOGIC;
-	SIGNAL MDO : STD_LOGIC;
-	SIGNAL RWO : STD_LOGIC;
-	SIGNAL MWO : STD_LOGIC;
-	SIGNAL PLO : STD_LOGIC;
-	SIGNAL JBO : STD_LOGIC;
-	SIGNAL BCO : STD_LOGIC;
-	SIGNAL NO : STD_LOGIC;
-	SIGNAL ZO : STD_LOGIC;
-	--SIGNAL DO : STD_LOGIC_VECTOR(15 DOWNTO 0);
-	--SIGNAL AD : STD_LOGIC_VECTOR(15 DOWNTO 0);
-	--SIGNAL DI : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL MUXBO : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL DISP  : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL ADATO : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL BDATO : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL RAMO  : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL FO    : STD_LOGIC_VECTOR(15 DOWNTO 0);
+	SIGNAL MBO   : STD_LOGIC;
+	SIGNAL MDO   : STD_LOGIC;
+	SIGNAL RWO   : STD_LOGIC;
+	SIGNAL MWO   : STD_LOGIC;
+	SIGNAL PLO   : STD_LOGIC;
+	SIGNAL JBO   : STD_LOGIC;
+	SIGNAL BCO   : STD_LOGIC;
+	SIGNAL NO    : STD_LOGIC;
+	SIGNAL ZO    : STD_LOGIC;
+	SIGNAL COUT    : STD_LOGIC;
 	
 	BEGIN
 		
@@ -231,7 +240,7 @@ ARCHITECTURE bdf_type OF practica_final IS
 			b2v_inst_zero_fill : zero_fill
 			PORT  MAP(
 				IR => IO(2 DOWNTO 0),
-				ZF => ZF0
+				ZF => ZFO
 			);
 			
 			b2v_inst_extend : extend
@@ -245,55 +254,69 @@ ARCHITECTURE bdf_type OF practica_final IS
 				RW     => RWO,
 				R      => BTR,
 				DD     => MUXDO,
-				AD     => XXXXXXXXX,
-				BD     => XXXXXXXXX,
+				AD     => ADATO,
+				BD     => BDATO,
 				AA     => AAO,
 				BA     => BAO,
 				DA     => DAO,
-				DIPA   => DIPA,
-				DIPO   : OUT  STD_LOGIC_VECTOR (15 DOWNTO 0);
-				clk    : IN  STD_LOGIC
+				DIPA   => DIPT,
+				DIPO   => DISP,
+				clk    => clk
 			);
-	
-	
-	
-	
-	
-	
-		b2v_inst_ram : ram
-			PORT  MAP(
-				RESET   => BTR,
-				MW      => xxxx,
-				BTN_W   : IN ,
-				ADDRESS : IN STD_LOGIC_VECTOR (15 DOWNTO 0),
-				DIPA    : IN STD_LOGIC_VECTOR (7 DOWNTO 0),
-				DIPB    : IN STD_LOGIC_VECTOR (7 DOWNTO 0),
-				DATA_IN : IN STD_LOGIC_VECTOR (15 DOWNTO 0),
-				DATA_OUT: OUT STD_LOGIC_VECTOR (15 DOWNTO 0),
-				clk     : IN  STD_LOGIC
-			);
-	
-		b2v_inst_practica2 : practica2
+			
+			b2v_inst_practica2 : practica2
 			PORT  MAP(
 				clk => clk ,
-				dip_1 => DO(15 DOWNTO 12),
-				dip_2 => DO(11 DOWNTO 8),
-				dip_3 => DO(7 DOWNTO 4),
-				dip_4 => DO(3 DOWNTO 0),
+				dip_1 => DISP(15 DOWNTO 12),
+				dip_2 => DISP(11 DOWNTO 8),
+				dip_3 => DISP(7 DOWNTO 4),
+				dip_4 => DISP(3 DOWNTO 0),
 				led_1 => act_dis1,
 				led_2 => act_dis2,
 				led_3 => act_dis3,
 				led_4 => act_dis4,
-				--D => D,
 				bcd_to_7 => display
 			);
 			
+			b2v_inst_muxb : mux_2_to_1
+			PORT  MAP(
+				S => MBO,
+				A => BDATO,
+				B => ZFO,
+				Y => MUXBO
+			);
 			
+			b2v_inst_practica4 : practica4
+			PORT  MAP(
+				clk    => clk,
+				FS     => FSO,
+				A      => ADATO,
+				B      => MUXBO,
+				C_out  => COUT,
+				N		 => NO,
+				Z		 => ZO,
+				F      => FO
+			);
 			
-		AD(15 DOWNTO 8) <= "00000000";
-		AD(7 DOWNTO 0) <= ADDRESS;
-		DI(15 DOWNTO 8) <= "00000000";
-		DI(7  DOWNTO 0) <= DATA_IN;
-		
-		
+			b2v_inst_muxd : mux_2_to_1
+			PORT  MAP(
+				S => MDO,
+				A => FO,
+				B => RAMO,
+				Y => MUXDO
+			);
+	
+		b2v_inst_ram : ram
+			PORT  MAP(
+				RESET    => BTR,
+				MW       => MWO,
+				BTN_W    => BTW,
+				ADDRESS  => ADO,
+				DIPA     => DIPA,
+				DIPB     => DIPB,
+				DATA_IN  => MUXBO,
+				DATA_OUT => RAMO,
+				clk      => clk
+			);
+			
 END  bdf_type;

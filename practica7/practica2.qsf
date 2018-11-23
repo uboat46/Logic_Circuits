@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE22F17C6
-set_global_assignment -name TOP_LEVEL_ENTITY instruction_memory
+set_global_assignment -name TOP_LEVEL_ENTITY practica_final
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:51:45  AGOSTO 31, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION "17.0.0 Lite Edition"
@@ -75,46 +75,44 @@ set_location_assignment PIN_A7 -to display[3]
 set_location_assignment PIN_B7 -to display[2]
 set_location_assignment PIN_B6 -to display[1]
 set_location_assignment PIN_A5 -to display[0]
-set_location_assignment PIN_A11 -to C_out
 set_global_assignment -name VHDL_FILE logic_circuit.vhd
 set_global_assignment -name VHDL_FILE shifter_circuit.vhd
 set_global_assignment -name VHDL_FILE mux_2_to_1.vhd
 set_global_assignment -name VHDL_FILE zero_detect.vhd
 set_global_assignment -name VHDL_FILE practica4.vhd
-set_location_assignment PIN_A15 -to N
-set_location_assignment PIN_A13 -to Z
 set_global_assignment -name VHDL_FILE registry_file.vhd
 set_global_assignment -name VHDL_FILE practica5.vhd
 set_global_assignment -name VHDL_FILE ram.vhd
 set_global_assignment -name VHDL_FILE practica6.vhd
-set_location_assignment PIN_J15 -to RESET
-set_location_assignment PIN_E1 -to WR
-set_location_assignment PIN_N16 -to DATA_IN[7]
-set_location_assignment PIN_R14 -to DATA_IN[6]
-set_location_assignment PIN_P16 -to DATA_IN[5]
-set_location_assignment PIN_P15 -to DATA_IN[4]
-set_location_assignment PIN_L15 -to DATA_IN[3]
-set_location_assignment PIN_R16 -to DATA_IN[2]
-set_location_assignment PIN_K16 -to DATA_IN[1]
-set_location_assignment PIN_L16 -to DATA_IN[0]
-set_location_assignment PIN_N11 -to ADDRESS[7]
-set_location_assignment PIN_N9 -to ADDRESS[6]
-set_location_assignment PIN_P9 -to ADDRESS[5]
-set_location_assignment PIN_N12 -to ADDRESS[4]
-set_location_assignment PIN_R10 -to ADDRESS[3]
-set_location_assignment PIN_P11 -to ADDRESS[2]
-set_location_assignment PIN_R11 -to ADDRESS[1]
-set_location_assignment PIN_T10 -to ADDRESS[0]
-set_location_assignment PIN_B1 -to LED_RESET
-set_location_assignment PIN_L3 -to LED_WRITE
 set_global_assignment -name VHDL_FILE branch_control.vhd
 set_global_assignment -name VHDL_FILE zero_fill.vhd
 set_global_assignment -name VHDL_FILE extend.vhd
 set_global_assignment -name VHDL_FILE program_counter.vhd
 set_global_assignment -name VHDL_FILE instruction_decoder.vhd
 set_global_assignment -name VHDL_FILE instruction_memory.vhd
+set_global_assignment -name VHDL_FILE practica_final.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_M1 -to DIPT[0]
+set_location_assignment PIN_T8 -to DIPT[1]
+set_location_assignment PIN_B9 -to DIPT[2]
+set_location_assignment PIN_T10 -to DIPB[0]
+set_location_assignment PIN_R11 -to DIPB[1]
+set_location_assignment PIN_P11 -to DIPB[2]
+set_location_assignment PIN_R10 -to DIPB[3]
+set_location_assignment PIN_N12 -to DIPB[4]
+set_location_assignment PIN_P9 -to DIPB[5]
+set_location_assignment PIN_N9 -to DIPB[6]
+set_location_assignment PIN_N11 -to DIPB[7]
+set_location_assignment PIN_L16 -to DIPA[0]
+set_location_assignment PIN_K16 -to DIPA[1]
+set_location_assignment PIN_R16 -to DIPA[2]
+set_location_assignment PIN_L15 -to DIPA[3]
+set_location_assignment PIN_P15 -to DIPA[4]
+set_location_assignment PIN_P16 -to DIPA[5]
+set_location_assignment PIN_R14 -to DIPA[6]
+set_location_assignment PIN_N16 -to DIPA[7]
+set_location_assignment PIN_E1 -to BTN_W
+set_location_assignment PIN_J15 -to BTN_R
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name VHDL_FILE practica_final.vhd

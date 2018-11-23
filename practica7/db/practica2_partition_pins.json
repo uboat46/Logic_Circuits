@@ -4,131 +4,135 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "I[0]",
+					"name" : "act_dis1",
 					"strict" : false
 				},
 				{
-					"name" : "I[1]",
+					"name" : "act_dis2",
 					"strict" : false
 				},
 				{
-					"name" : "I[2]",
+					"name" : "act_dis4",
 					"strict" : false
 				},
 				{
-					"name" : "I[3]",
+					"name" : "act_dis3",
 					"strict" : false
 				},
 				{
-					"name" : "I[4]",
+					"name" : "display[0]",
 					"strict" : false
 				},
 				{
-					"name" : "I[6]",
+					"name" : "display[1]",
 					"strict" : false
 				},
 				{
-					"name" : "I[7]",
+					"name" : "display[2]",
 					"strict" : false
 				},
 				{
-					"name" : "I[8]",
+					"name" : "display[3]",
 					"strict" : false
 				},
 				{
-					"name" : "I[9]",
+					"name" : "display[4]",
 					"strict" : false
 				},
 				{
-					"name" : "I[10]",
+					"name" : "display[5]",
 					"strict" : false
 				},
 				{
-					"name" : "I[11]",
+					"name" : "display[6]",
 					"strict" : false
 				},
 				{
-					"name" : "I[12]",
+					"name" : "DIPT[0]",
 					"strict" : false
 				},
 				{
-					"name" : "I[13]",
+					"name" : "DIPT[1]",
 					"strict" : false
 				},
 				{
-					"name" : "I[14]",
+					"name" : "DIPT[2]",
 					"strict" : false
 				},
 				{
-					"name" : "I[15]",
+					"name" : "BTN_R",
 					"strict" : false
 				},
 				{
-					"name" : "IE[2]",
+					"name" : "clk",
 					"strict" : false
 				},
 				{
-					"name" : "IE[0]",
+					"name" : "DIPA[5]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[4]",
+					"name" : "DIPB[0]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[5]",
+					"name" : "DIPB[1]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[6]",
+					"name" : "DIPB[2]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[7]",
+					"name" : "BTN_W",
 					"strict" : false
 				},
 				{
-					"name" : "IE[8]",
+					"name" : "DIPB[7]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[9]",
+					"name" : "DIPB[3]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[10]",
+					"name" : "DIPB[4]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[11]",
+					"name" : "DIPB[5]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[12]",
+					"name" : "DIPB[6]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[13]",
+					"name" : "DIPA[1]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[14]",
+					"name" : "DIPA[2]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[15]",
+					"name" : "DIPA[6]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[3]",
+					"name" : "DIPA[3]",
 					"strict" : false
 				},
 				{
-					"name" : "RESET",
+					"name" : "DIPA[7]",
 					"strict" : false
 				},
 				{
-					"name" : "IE[1]",
+					"name" : "DIPA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DIPA[4]",
 					"strict" : false
 				}
 			]

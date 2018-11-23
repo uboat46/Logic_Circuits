@@ -21,10 +21,13 @@ end ram;
 architecture table	of  ram  is
 	type registerFile is array(2**8 - 1 DOWNTO 0) of std_logic_vector(15 DOWNTO 0);
 	signal registers : registerFile:=(others => x"0000");
-	signal data_write : "00000000" & DIPA;
-	signal adress_write : "00000000" & DIPB;
-	signal btn_write : not(BTN_W);
+	signal data_write : std_logic_vector(15 DOWNTO 0);
+	signal adress_write : std_logic_vector(15 DOWNTO 0);
+	signal btn_write : std_logic;
 	begin
+	data_write <= "00000000" & DIPA;
+	adress_write <= "00000000" & DIPB;
+	btn_write <= not(BTN_W);
 	regFile : PROCESS(clk) is
 		begin
 			if (clk 'event  AND  clk =  '1') then
