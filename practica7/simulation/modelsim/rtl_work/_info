@@ -8,48 +8,42 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica7/simulation/modelsim
-Eprogram_counter
-Z1 w1542383723
-Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Einstruction_memory
+Z1 w1542982788
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z7 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica7/program_counter.vhd
-Z8 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica7/program_counter.vhd
+Z4 8/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica7/instruction_memory.vhd
+Z5 F/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica7/instruction_memory.vhd
 l0
-L7
-VJ6V^0H5IIRQYPFj1K0H6i0
-!s100 GSN1oA826f^EZ41J1C:Aj0
-Z9 OV;C;10.5b;63
+L5
+VOnPlfKziI1?SD4UXGQZXI1
+!s100 53<CJch:FA4flG9I<zGzB0
+Z6 OV;C;10.5b;63
 31
-Z10 !s110 1542383773
+Z7 !s110 1542982830
 !i10b 1
-Z11 !s108 1542383772.000000
-Z12 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica7/program_counter.vhd|
-Z13 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica7/program_counter.vhd|
+Z8 !s108 1542982830.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica7/instruction_memory.vhd|
+Z10 !s107 /home/local/ITAM/esotomayg/Documents/Logic_Circuits/practica7/instruction_memory.vhd|
 !i113 1
-Z14 o-93 -work work
-Z15 tExplicit 1 CvgOpt 0
-Atable
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aflujo1
 R2
 R3
-R4
-R5
+DEx4 work 18 instruction_memory 0 22 OnPlfKziI1?SD4UXGQZXI1
+l44
+L15
+V83`IQlFVei7mo22ck]o5n3
+!s100 bdI30UXOMA:OKAQWGI`183
 R6
-DEx4 work 15 program_counter 0 22 J6V^0H5IIRQYPFj1K0H6i0
-l20
-L18
-VA4[2kLQGc_f[OF7n]7kZm3
-!s100 oUiZaMjWKjIWXZ^AM6;^c3
-R9
 31
-R10
+R7
 !i10b 1
+R8
+R9
+R10
+!i113 1
 R11
 R12
-R13
-!i113 1
-R14
-R15

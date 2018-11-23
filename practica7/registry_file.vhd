@@ -14,6 +14,8 @@ entity	registry_file  is
 		AA     : IN  STD_LOGIC_VECTOR (2  DOWNTO  0);
 		BA     : IN  STD_LOGIC_VECTOR (2  DOWNTO  0);
 		DA     : IN  STD_LOGIC_VECTOR (2  DOWNTO  0);
+		DIPA   : IN  STD_LOGIC_VECTOR (2 DOWNTO 0);
+		DIPO   : OUT  STD_LOGIC_VECTOR (15 DOWNTO 0);
 		clk    : IN  STD_LOGIC
 	);
 end registry_file;
@@ -26,7 +28,8 @@ architecture table	of  registry_file  is
 		begin
 			if (clk 'event  AND  clk =  '1') then
 				if R = '1' then
-					registers(to_integer(unsigned(DA))) <= x"0000";
+					registers <= (others => x"0000");
+					-- registers(to_integer(unsigned(DA))) <= x"0000";
 				else
 					if RW = '1' THEN
 						registers(to_integer(unsigned(DA))) <= DD;
@@ -35,6 +38,7 @@ architecture table	of  registry_file  is
 			end if;
 			AD <= registers(to_integer(unsigned(AA)));
 			BD <= registers(to_integer(unsigned(BA)));
+			DIPO <= registers(to_integer(unsigned(DIPA)));
 		end  process;
 		
 end table;

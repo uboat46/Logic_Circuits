@@ -4,211 +4,131 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "ADO[0]",
+					"name" : "I[0]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[1]",
+					"name" : "I[1]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[2]",
+					"name" : "I[2]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[3]",
+					"name" : "I[3]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[4]",
+					"name" : "I[4]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[5]",
+					"name" : "I[6]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[6]",
+					"name" : "I[7]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[7]",
+					"name" : "I[8]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[8]",
+					"name" : "I[9]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[9]",
+					"name" : "I[10]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[10]",
+					"name" : "I[11]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[11]",
+					"name" : "I[12]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[12]",
+					"name" : "I[13]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[13]",
+					"name" : "I[14]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[14]",
+					"name" : "I[15]",
 					"strict" : false
 				},
 				{
-					"name" : "ADO[15]",
+					"name" : "IE[2]",
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "IE[0]",
 					"strict" : false
 				},
 				{
-					"name" : "IR[0]",
+					"name" : "IE[4]",
 					"strict" : false
 				},
 				{
-					"name" : "OP[0]",
+					"name" : "IE[5]",
 					"strict" : false
 				},
 				{
-					"name" : "OP[1]",
+					"name" : "IE[6]",
 					"strict" : false
 				},
 				{
-					"name" : "AD[0]",
+					"name" : "IE[7]",
 					"strict" : false
 				},
 				{
-					"name" : "R",
+					"name" : "IE[8]",
 					"strict" : false
 				},
 				{
-					"name" : "IR[1]",
+					"name" : "IE[9]",
 					"strict" : false
 				},
 				{
-					"name" : "AD[1]",
+					"name" : "IE[10]",
 					"strict" : false
 				},
 				{
-					"name" : "IR[2]",
+					"name" : "IE[11]",
 					"strict" : false
 				},
 				{
-					"name" : "AD[2]",
+					"name" : "IE[12]",
 					"strict" : false
 				},
 				{
-					"name" : "IR[3]",
+					"name" : "IE[13]",
 					"strict" : false
 				},
 				{
-					"name" : "AD[3]",
+					"name" : "IE[14]",
 					"strict" : false
 				},
 				{
-					"name" : "IR[4]",
+					"name" : "IE[15]",
 					"strict" : false
 				},
 				{
-					"name" : "AD[4]",
+					"name" : "IE[3]",
 					"strict" : false
 				},
 				{
-					"name" : "IR[5]",
+					"name" : "RESET",
 					"strict" : false
 				},
 				{
-					"name" : "AD[5]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[6]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[6]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[7]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[7]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[8]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[8]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[9]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[9]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[10]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[10]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[11]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[11]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[12]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[12]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[13]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[13]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[14]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[14]",
-					"strict" : false
-				},
-				{
-					"name" : "IR[15]",
-					"strict" : false
-				},
-				{
-					"name" : "AD[15]",
+					"name" : "IE[1]",
 					"strict" : false
 				}
 			]
