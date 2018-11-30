@@ -68,8 +68,10 @@ ARCHITECTURE bdf_type OF practica4 IS
 	SIGNAL   GS :   STD_LOGIC_VECTOR (15  DOWNTO  0);
 	SIGNAL   O :   STD_LOGIC_VECTOR (15  DOWNTO  0);
 	SIGNAL   FO :   STD_LOGIC_VECTOR (15  DOWNTO  0);
+	SIGNAL   FSAUX :   STD_LOGIC;
 	BEGIN
 	
+	FSAUX <= (FS(3) AND FS(2));
 	F <= FO;
 	N <= FO(15);
 		
@@ -108,7 +110,7 @@ ARCHITECTURE bdf_type OF practica4 IS
 		
 	b2v_instac_mux_2 : mux_2_to_1
 		PORT  MAP(
-			S=> (FS(3) AND FS(2)),
+			S=> FSAUX,
 			A=> O,
 			B=> GS,
 			Y=>	FO

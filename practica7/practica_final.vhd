@@ -187,8 +187,10 @@ ARCHITECTURE bdf_type OF practica_final IS
 	SIGNAL NO    : STD_LOGIC;
 	SIGNAL ZO    : STD_LOGIC;
 	SIGNAL COUT    : STD_LOGIC;
+	SIGNAL IRAUX    : STD_LOGIC_VECTOR(5 DOWNTO 0);
 	
 	BEGIN
+		IRAUX <= IO(8 DOWNTO 6) & IO(2 DOWNTO 0);
 		
 		b2v_inst_instruction_decoder : instruction_decoder
 			PORT  MAP(
@@ -222,7 +224,7 @@ ARCHITECTURE bdf_type OF practica_final IS
 			b2v_inst_program_counter : program_counter
 			PORT  MAP(
 				IR      => IRO,
-				AD      => ADO,
+				AD      => ADATO,
 				OP      => OPO,
 				ADO     => ADOO,
 				R       => BTR,
@@ -245,7 +247,7 @@ ARCHITECTURE bdf_type OF practica_final IS
 			
 			b2v_inst_extend : extend
 			PORT  MAP(
-				IR => IO(8 DOWNTO 6) & IO(2 DOWNTO 0),
+				IR => IRAUX,
 				EX => IRO
 			);
 			
@@ -311,7 +313,7 @@ ARCHITECTURE bdf_type OF practica_final IS
 				RESET    => BTR,
 				MW       => MWO,
 				BTN_W    => BTW,
-				ADDRESS  => ADO,
+				ADDRESS  => ADATO,
 				DIPA     => DIPA,
 				DIPB     => DIPB,
 				DATA_IN  => MUXBO,

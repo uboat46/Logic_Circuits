@@ -42,6 +42,8 @@ architecture table	of  ram  is
 					END IF;
 				end if;
 			end if;
+			registers(0000000000000000) <= "0000000000000001";
+			registers(0000000000000001) <= "0000000000000100";
 			DATA_OUT <= registers(to_integer(unsigned(ADDRESS)));
 		end  process;
 end table;
