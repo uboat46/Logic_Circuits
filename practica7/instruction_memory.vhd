@@ -79,18 +79,44 @@ architecture flujo1 of instruction_memory is
 -- D[?] = x"ABCD"
 -- D[!] = x"1123"
 ------------------------ STORE-DISPLAY TEST --------------------------------------	
-			LDI      &    O"0"  &    O"0"   &    O"0"   when IE = X"0000" else    -- Se asigna una constante ? al registro 0
-			LD       &    O"0"  &    O"0"   &    O"0"   when IE = X"0001" else 	  -- Se carga de data memory el valor en el registro ? 
-			LDI      &    O"1"  &    O"0"   &    O"1"   when IE = X"0002" else    -- Se asigna una constante ! al registro 1
-			LD       &    O"1"  &    O"1"   &    O"0"   when IE = X"0003" else    -- Se carga de data memory el valor en el registro !
-			ADD      &    O"2"  &    O"0"   &    O"1"   when IE = X"0004" else 
-			ORX      &    O"3"  &    O"0"   &    O"1"   when IE = X"0005" else
-			OOR      &    O"4"  &    O"2"   &    O"3"   when IE = X"0006" else
-			SHL      &    O"5"  &    O"0"   &    O"3"   when IE = X"0007" else
-			NNO      &    O"6"  &    O"3"   &    O"0"   when IE = X"0008" else
-			ORX      &    O"7"  &    O"3"   &    O"1"   when IE = X"0009" else
+--			LDI      &    O"0"  &    O"0"   &    O"0"   when IE = X"0000" else    -- Se asigna una constante ? al registro 0
+--			LD       &    O"0"  &    O"0"   &    O"0"   when IE = X"0001" else 	  -- Se carga de data memory el valor en el registro ? 
+--			LDI      &    O"1"  &    O"0"   &    O"1"   when IE = X"0002" else    -- Se asigna una constante ! al registro 1
+--			LD       &    O"1"  &    O"1"   &    O"0"   when IE = X"0003" else    -- Se carga de data memory el valor en el registro !
+--			ADD      &    O"2"  &    O"0"   &    O"1"   when IE = X"0004" else 
+--			ORX      &    O"3"  &    O"0"   &    O"1"   when IE = X"0005" else
+--			OOR      &    O"4"  &    O"2"   &    O"3"   when IE = X"0006" else
+--			SHL      &    O"5"  &    O"0"   &    O"3"   when IE = X"0007" else
+--			NNO      &    O"6"  &    O"3"   &    O"0"   when IE = X"0008" else
+--			ORX      &    O"7"  &    O"3"   &    O"1"   when IE = X"0009" else
 ------------------------ STORE-DISPLAY TEST --------------------------------------	
-	
+	      LDI      &    O"0"  &   O"0"  &     O"5"  when IE = X"0000" else   -- INICIO LOOP DE I
+			LDI      &    O"1"  &   O"0"  &     O"6"  when IE = X"0001" else
+			ADD      &    O"0"  &   O"0"  &     O"1"  when IE = X"0002" else
+			ST       &    O"0"  &   O"0"  &     O"0"  when IE = X"0003" else
+			LDI      &    O"0"  &   O"0"  &     O"6"  when IE = X"0004" else   -- INICIO LOOP DE MULT
+			LDI      &    O"1"  &   O"0"  &     O"6"  when IE = X"0005" else
+			ADD      &    O"0"  &   O"0"  &     O"1"  when IE = X"0006" else
+			ST       &    O"1"  &   O"0"  &     O"0"  when IE = X"0007" else
+			
+			LDI      &    O"0"  &   O"0"  &     O"5"  when IE = X"0008" else   -- carga n en R1
+			DEC      &    O"5"  &   O"0"  &     O"0"  when IE = X"0009" else   -- condicion de fin de programa
+			BRZ      &    O"1"  &   O"5"  &     O"5"  when IE = X"0010" else   -- ir a fin de programa
+			
+			INC      &    O"1"  &   O"0"  &     O"0"  when IE = X"0011" else
+			MOVA     &    O"3"  &   O"0"  &     O"0"  when IE = X"0012" else   -- CONDICION PARA CHECAR SI ACABO DE MULTIPLICAR
+			DEC      &    O"3"  &   O"3"  &     O"0"  when IE = X"0013" else
+			BRZ      &    O"0"  &   O"3"  &     O"4"  when IE = X"0014" else
+			ADD      &    O"4"  &   O"4"  &     O"1"  when IE = X"0015" else   -- MULTIPLICA
+			LD       &    O"6"  &   O"1"  &     O"0"  when IE = X"0016" else
+			JMP      &    O"0"  &   O"6"  &     O"0"  when IE = X"0017" else   -- REGRESO DE MULT
+			
+			SHR      &    O"4"  &   O"0"  &     O"4"  when IE = X"0018" else   -- DIVIDE POR 2
+			ADD      &    O"7"  &   O"7"  &     O"4"  when IE = X"0019" else   -- SALVA ITERACION
+			
+			ORX      &    O"4"  &   O"4"  &     O"4"  when IE = X"0020" else   -- LIMPIO R4
+			LD       &    O"6"  &   O"0"  &     O"0"  when IE = X"0021" else   -- REGRESO A ITERACION
+			JMP      &    O"0"  &   O"6"  &     O"0"  when IE = X"0022" else
 			"0101010" & "101" & "010" & "101" ;  
 
 end flujo1;

@@ -11,7 +11,7 @@
 # 
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/decoder_2_to_4.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:47 on Nov 30,2018
+# Start time: 10:03:20 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/decoder_2_to_4.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -20,11 +20,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity decoder_2_to_4
 # -- Compiling architecture function_table of decoder_2_to_4
-# End time: 09:17:47 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:20 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/cont2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:47 on Nov 30,2018
+# Start time: 10:03:20 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/cont2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -33,22 +33,22 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity cont2
 # -- Compiling architecture Behavioral of cont2
-# End time: 09:17:47 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/div_freq.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:47 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/div_freq.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity div_freq
 # -- Compiling architecture Behavioral of div_freq
-# End time: 09:17:47 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/mux_4_to_1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:47 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/mux_4_to_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -57,11 +57,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity mux_4_to_1
 # -- Compiling architecture function_table of mux_4_to_1
-# End time: 09:17:47 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/bcd_to_7_segment.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:47 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/bcd_to_7_segment.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -70,11 +70,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity bcd_to_7_segment
 # -- Compiling architecture led_table of bcd_to_7_segment
-# End time: 09:17:47 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/arithmetic_circuit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:47 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/arithmetic_circuit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -83,11 +83,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity arithmetic_circuit
 # -- Compiling architecture table of arithmetic_circuit
-# End time: 09:17:47 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/logic_circuit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:47 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/logic_circuit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -96,11 +96,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity logic_circuit
 # -- Compiling architecture table of logic_circuit
-# End time: 09:17:47 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/shifter_circuit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:47 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/shifter_circuit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -110,11 +110,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity shifter_circuit
 # -- Compiling architecture table of shifter_circuit
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:01
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/mux_2_to_1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/mux_2_to_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -123,11 +123,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity mux_2_to_1
 # -- Compiling architecture function_table of mux_2_to_1
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/zero_detect.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/zero_detect.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -136,11 +136,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity zero_detect
 # -- Compiling architecture function_table of zero_detect
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica4.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica4.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -149,11 +149,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity practica4
 # -- Compiling architecture bdf_type of practica4
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/registry_file.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/registry_file.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -163,11 +163,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity registry_file
 # -- Compiling architecture table of registry_file
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/ram.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/ram.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -177,11 +177,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ram
 # -- Compiling architecture table of ram
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/branch_control.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/branch_control.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -190,11 +190,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity branch_control
 # -- Compiling architecture function_table of branch_control
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/zero_fill.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/zero_fill.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -203,11 +203,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity zero_fill
 # -- Compiling architecture function_table of zero_fill
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/extend.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/extend.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -216,11 +216,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity extend
 # -- Compiling architecture function_table of extend
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:21 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/program_counter.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:21 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/program_counter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -230,11 +230,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity program_counter
 # -- Compiling architecture table of program_counter
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:22 on Dec 07,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/instruction_decoder.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:22 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/instruction_decoder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -243,22 +243,22 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity instruction_decoder
 # -- Compiling architecture function_table of instruction_decoder
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:22 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/instruction_memory.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:22 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/instruction_memory.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity instruction_memory
 # -- Compiling architecture flujo1 of instruction_memory
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:22 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:17:48 on Nov 30,2018
+# Start time: 10:03:22 on Dec 07,2018
 # vcom -reportprogress 300 -93 -work work /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -269,14 +269,14 @@
 # -- Compiling architecture bdf_type of practica_final
 # ** Warning: /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd(159): (vcom-1013) Initial value of "BTW" depends on value of signal "BTN_W".
 # ** Warning: /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd(160): (vcom-1013) Initial value of "BTR" depends on value of signal "BTN_R".
-# End time: 09:17:48 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 10:03:22 on Dec 07,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 2
 # 
 # 
 # stdin: <EOF>
 vsim work.practica_final
 # vsim work.practica_final 
-# Start time: 09:18:17 on Nov 30,2018
+# Start time: 10:03:51 on Dec 07,2018
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -300,42 +300,9 @@ vsim work.practica_final
 # Loading work.shifter_circuit(table)
 # Loading work.zero_detect(function_table)
 # Loading work.ram(table)
-vsim work.practica_final
-# End time: 09:18:25 on Nov 30,2018, Elapsed time: 0:00:08
-# Errors: 0, Warnings: 1
-# vsim work.practica_final 
-# Start time: 09:18:25 on Nov 30,2018
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.practica_final(bdf_type)
-# Loading work.instruction_decoder(function_table)
-# Loading work.branch_control(function_table)
-# Loading ieee.numeric_std(body)
-# Loading work.program_counter(table)
-# Loading work.instruction_memory(flujo1)
-# Loading work.zero_fill(function_table)
-# Loading work.extend(function_table)
-# Loading work.registry_file(table)
-# ** Warning: (vsim-3473) Component instance "b2v_inst_practica2 : practica2" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final File: /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd
-# Loading work.mux_2_to_1(function_table)
-# Loading work.practica4(bdf_type)
-# Loading work.arithmetic_circuit(table)
-# Loading work.logic_circuit(table)
-# Loading work.shifter_circuit(table)
-# Loading work.zero_detect(function_table)
-# Loading work.ram(table)
-wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/practica_final/clk
+add wave -position end  sim:/practica_final/clk
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/practica_final/clk
 # Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
-# practica_final
-wave create -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 1000ps sim:/practica_final/BTN_R
-# practica_final
-wave create -driver freeze -pattern counter -startvalue 000 -endvalue 111 -type Range -direction Up -period 100ps -step 1 -repeat forever -range 2 0 -starttime 0ps -endtime 1000ps sim:/practica_final/DIPT
-# practica_final
-add wave -position end  sim:/practica_final/DISP
 run -all
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
@@ -344,6 +311,18 @@ run -all
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_program_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_program_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_program_counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_program_counter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
@@ -360,357 +339,110 @@ run -all
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 50 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 100 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 150 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 200 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 250 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ps  Iteration: 2  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 300 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 350 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 450 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 550 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 650 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 700 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 750 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 800 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 850 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 900 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 950 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 5  Instance: /practica_final/b2v_inst_ram
-add wave -position end  sim:/practica_final/ADOO
-restart
-# ** Warning: (vsim-3473) Component instance "b2v_inst_practica2 : practica2" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final File: /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd
-run -all
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_ram
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 200 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 300 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 350 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 400 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 450 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 550 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 650 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 700 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 750 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 800 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 850 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 900 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 950 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 5  Instance: /practica_final/b2v_inst_ram
-add wave -position end  sim:/practica_final/MUXDO
-add wave -position end  sim:/practica_final/DAO
-add wave -position end  sim:/practica_final/AAO
-add wave -position end  sim:/practica_final/BAO
-add wave -position end  sim:/practica_final/ADATO
-add wave -position end  sim:/practica_final/BDATO
-restart
-# ** Warning: (vsim-3473) Component instance "b2v_inst_practica2 : practica2" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final File: /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_ram
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-restart
-# ** Warning: (vsim-3473) Component instance "b2v_inst_practica2 : practica2" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final File: /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_ram
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 200 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 300 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 350 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+#    Time: 450 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 450 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+#    Time: 500 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 550 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+#    Time: 550 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+#    Time: 600 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 650 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+#    Time: 650 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 ps  Iteration: 2  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 700 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 750 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 800 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 850 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 900 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 950 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 5  Instance: /practica_final/b2v_inst_ram
-add wave -position end  sim:/practica_final/RWO
-restart
-# ** Warning: (vsim-3473) Component instance "b2v_inst_practica2 : practica2" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final File: /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_ram
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 200 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 300 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 350 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 450 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 550 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 650 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 700 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 750 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 800 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 850 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 900 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 950 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 5  Instance: /practica_final/b2v_inst_ram
-add wave -position end  sim:/practica_final/RAMO
-restart
-# ** Warning: (vsim-3473) Component instance "b2v_inst_practica2 : practica2" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final File: /home/local/ITAM/esotomayg/Documents/final/Logic_Circuits/practica7/practica_final.vhd
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_registry_file
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /practica_final/b2v_inst_ram
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 5  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 100 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 150 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 200 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 250 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 300 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 350 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 450 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 550 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 650 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 700 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 750 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 800 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+#    Time: 850 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 850 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 900 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+#    Time: 900 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 950 ps  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+#    Time: 950 ps  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 0  Instance: /practica_final/b2v_inst_ram
+#    Time: 1 ns  Iteration: 0  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 2  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 3  Instance: /practica_final/b2v_inst_practica4/b2v_instac_a
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1 ns  Iteration: 5  Instance: /practica_final/b2v_inst_ram
-# End time: 09:42:18 on Nov 30,2018, Elapsed time: 0:23:53
-# Errors: 0, Warnings: 179
+#    Time: 1 ns  Iteration: 7  Instance: /practica_final/b2v_inst_registry_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 7  Instance: /practica_final/b2v_inst_ram
+# End time: 10:05:13 on Dec 07,2018, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 71
