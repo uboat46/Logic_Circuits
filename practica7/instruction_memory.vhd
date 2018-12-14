@@ -90,33 +90,39 @@ architecture flujo1 of instruction_memory is
 --			NNO      &    O"6"  &    O"3"   &    O"0"   when IE = X"0008" else
 --			ORX      &    O"7"  &    O"3"   &    O"1"   when IE = X"0009" else
 ------------------------ STORE-DISPLAY TEST --------------------------------------	
-	      LDI      &    O"0"  &   O"0"  &     O"5"  when IE = X"0000" else   -- INICIO LOOP DE I
+	      LDI      &    O"0"  &   O"0"  &     O"6"  when IE = X"0000" else   -- INICIO LOOP DE I
 			LDI      &    O"1"  &   O"0"  &     O"6"  when IE = X"0001" else
 			ADD      &    O"0"  &   O"0"  &     O"1"  when IE = X"0002" else
-			ST       &    O"0"  &   O"0"  &     O"0"  when IE = X"0003" else
-			LDI      &    O"0"  &   O"0"  &     O"6"  when IE = X"0004" else   -- INICIO LOOP DE MULT
-			LDI      &    O"1"  &   O"0"  &     O"6"  when IE = X"0005" else
+			ST       &    O"0"  &   O"7"  &     O"0"  when IE = X"0003" else
+			LDI      &    O"0"  &   O"0"  &     O"7"  when IE = X"0004" else   -- INICIO LOOP DE MULT
+			LDI      &    O"1"  &   O"0"  &     O"7"  when IE = X"0005" else
 			ADD      &    O"0"  &   O"0"  &     O"1"  when IE = X"0006" else
-			ST       &    O"1"  &   O"0"  &     O"0"  when IE = X"0007" else
+			ADI      &    O"0"  &   O"0"  &     O"2"  when IE = X"0007" else
+			LDI      &    O"1"  &   O"0"  &     O"1"  when IE = X"0008" else
+			ST       &    O"0"  &   O"1"  &     O"0"  when IE = X"0009" else
 			
-			LDI      &    O"0"  &   O"0"  &     O"5"  when IE = X"0008" else   -- carga n en R1
-			DEC      &    O"5"  &   O"0"  &     O"0"  when IE = X"0009" else   -- condicion de fin de programa
-			BRZ      &    O"1"  &   O"5"  &     O"5"  when IE = X"0010" else   -- ir a fin de programa
+			LDI      &    O"0"  &   O"0"  &     O"7"  when IE = X"000A" else   -- carga n en R1
+			MOVA     &    O"5"  &   O"0"  &     O"0"  when IE = X"000B" else   -- inicia contador en registro 5
+			INC      &    O"1"  &   O"5"  &     O"0"  when IE = X"000C" else
+			BRZ      &    O"2"  &   O"5"  &     O"0"  when IE = X"000D" else   -- ir a fin de programa
+			DEC      &    O"5"  &   O"5"  &     O"0"  when IE = X"000E" else   -- condicion de fin de programa
 			
-			INC      &    O"1"  &   O"0"  &     O"0"  when IE = X"0011" else
-			MOVA     &    O"3"  &   O"0"  &     O"0"  when IE = X"0012" else   -- CONDICION PARA CHECAR SI ACABO DE MULTIPLICAR
-			DEC      &    O"3"  &   O"3"  &     O"0"  when IE = X"0013" else
-			BRZ      &    O"0"  &   O"3"  &     O"4"  when IE = X"0014" else
-			ADD      &    O"4"  &   O"4"  &     O"1"  when IE = X"0015" else   -- MULTIPLICA
-			LD       &    O"6"  &   O"1"  &     O"0"  when IE = X"0016" else
-			JMP      &    O"0"  &   O"6"  &     O"0"  when IE = X"0017" else   -- REGRESO DE MULT
 			
-			SHR      &    O"4"  &   O"0"  &     O"4"  when IE = X"0018" else   -- DIVIDE POR 2
-			ADD      &    O"7"  &   O"7"  &     O"4"  when IE = X"0019" else   -- SALVA ITERACION
+			MOVA     &    O"3"  &   O"1"  &     O"0"  when IE = X"000F" else   -- CONDICION PARA CHECAR SI ACABO DE MULTIPLICAR
+			DEC      &    O"3"  &   O"3"  &     O"0"  when IE = X"0010" else
+			BRZ      &    O"0"  &   O"3"  &     O"5"  when IE = X"0011" else
+			ADD      &    O"4"  &   O"4"  &     O"1"  when IE = X"0012" else   -- MULTIPLICA
+			LDI      &    O"6"  &   O"0"  &     O"1"  when IE = X"0013" else
+    		LD       &    O"6"  &   O"6"  &     O"0"  when IE = X"0014" else
+			JMP      &    O"0"  &   O"6"  &     O"0"  when IE = X"0015" else   -- REGRESO DE MULT
 			
-			ORX      &    O"4"  &   O"4"  &     O"4"  when IE = X"0020" else   -- LIMPIO R4
-			LD       &    O"6"  &   O"0"  &     O"0"  when IE = X"0021" else   -- REGRESO A ITERACION
-			JMP      &    O"0"  &   O"6"  &     O"0"  when IE = X"0022" else
+			SHR      &    O"4"  &   O"0"  &     O"4"  when IE = X"0016" else   -- DIVIDE POR 2
+			ADD      &    O"7"  &   O"7"  &     O"4"  when IE = X"0017" else   -- SALVA ITERACION
+			
+			ORX      &    O"4"  &   O"4"  &     O"4"  when IE = X"0018" else   -- LIMPIO R4
+			LDI      &    O"6"  &   O"0"  &     O"0"  when IE = X"0019" else
+			LD       &    O"6"  &   O"6"  &     O"0"  when IE = X"001A" else   -- REGRESO A ITERACION
+			JMP      &    O"0"  &   O"6"  &     O"0"  when IE = X"001B" else
 			"0101010" & "101" & "010" & "101" ;  
 
 end flujo1;

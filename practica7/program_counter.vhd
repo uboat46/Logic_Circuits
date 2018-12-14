@@ -38,6 +38,6 @@ architecture table	of  program_counter  is
 					END IF;
 				end if;
 			end if;
-			ADO <= count; 
 		end  process;
+		ADO <= count; 
 end table;

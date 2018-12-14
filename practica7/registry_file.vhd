@@ -22,7 +22,7 @@ end registry_file;
 
 architecture table	of  registry_file  is
 	type registerFile is array(7 DOWNTO 0) of std_logic_vector(15 DOWNTO 0);
-	signal registers : registerFile;
+	signal registers : registerFile:=(others => x"0000");
 	begin
 	regFile : PROCESS(clk) is
 		begin
@@ -36,9 +36,8 @@ architecture table	of  registry_file  is
 					END IF;
 				end if;
 			end if;
-			AD <= registers(to_integer(unsigned(AA)));
-			BD <= registers(to_integer(unsigned(BA)));
-			DIPO <= registers(to_integer(unsigned(DIPA)));
 		end  process;
-		
+		AD <= registers(to_integer(unsigned(AA)));
+		BD <= registers(to_integer(unsigned(BA)));
+		DIPO <= registers(to_integer(unsigned(DIPA)));
 end table;
